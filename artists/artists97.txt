@@ -1,0 +1,50 @@
+MGMT <//> m/mgmt.html
+GRIZZLY BEAR <//> g/grizzlybear.html
+BLUE <//> b/blue.html
+LEE, PEGGY <//> p/peggylee.html
+TEXAS <//> t/texas.html
+DAVID GATES <//> d/davidgates.html
+DIGITALISM <//> d/digitalism.html
+BREAD <//> b/bread.html
+BRANDY <//> b/brandy.html
+SONIC YOUTH <//> s/sonicyouth.html
+HEAD AUTOMATICA <//> h/headautomatica.html
+STEVENS, RACHEL <//> s/stevens.html
+MANN <//> m/mann.html
+VARSITY FANCLUB <//> v/varsityfanclub.html
+LOW ANTHEM, THE <//> l/lowanthem.html
+TRAVIE MCCOY <//> t/traviemccoy.html
+T-WAYNE <//> t/twayne.html
+OMD (ORCHESTRAL MANOEUVRES IN THE DARK) <//> o/omdorchestralmanoeuvresinthedark.html
+DILLON <//> d/dillon6545.html
+PETER GABRIEL <//> g/gabriel.html
+PRIDE, CHARLEY <//> c/charleypride.html
+HARTERS, THE <//> h/harters.html
+CARR, KURT <//> k/kurtcarr.html
+NIX, RICHY <//> r/richynix.html
+MC DALESTE <//> m/mcdaleste.html
+LIL' MO <//> l/lilmo.html
+PABLO ALBORAN <//> p/pabloalboran.html
+HELM, LEVON <//> l/levonhelm.html
+HEATON, NIYKEE <//> n/niykeeheaton.html
+DAVID DALLAS <//> d/daviddallas.html
+DARIN <//> d/darin.html
+SNOOTIE WILD <//> s/snootiewild.html
+JAMES REID <//> j/jamesreid.html
+DESTORM <//> d/destorm.html
+STATE CHAMPS <//> s/statechamps.html
+WRIGHT, CHELY <//> c/chelywright.html
+CHAKA KHAN <//> c/chakakhan.html
+JAMISON, CHRIS <//> c/chrisjamison.html
+OOMPH! <//> o/oomph.html
+NICHOLE NORDEMAN <//> n/nicholenordeman.html
+COCO LEE <//> l/lee.html
+REED, JERRY <//> j/jerryreed.html
+STACIE ORRICO <//> o/orrico.html
+LO-FANG <//> l/lofang.html
+ELLA MAE BOWEN <//> e/ellamaebowen.html
+BIG PUNISHER <//> b/bigpun.html
+FERRAS <//> f/ferras.html
+GRACE POTTER AND THE NOCTURNALS <//> g/gracepotterandthenocturnals.html
+PARKER, COURTNEY <//> c/courtneyparker.html
+TAPROOT <//> t/taproot.html

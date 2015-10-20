@@ -1,0 +1,50 @@
+ALPINE <//> a/alpine.html
+BRICKMAN, JIM <//> j/jimbrickman.html
+WESTLIFE <//> w/westlife.html
+HOUNDMOUTH <//> h/houndmouth.html
+CRISS, DARREN <//> d/darrencriss.html
+REAL FRIENDS <//> r/realfriends.html
+NICKEL CREEK <//> n/nickelcreek.html
+MARTHA WAINWRIGHT <//> m/marthawainwright.html
+JAMES <//> j/james.html
+LEAH MCFALL <//> l/leahmcfall.html
+HAWLEY, RICHARD <//> r/richardhawley.html
+PESADO <//> p/pesado.html
+CROSBY, STILLS & NASH <//> c/crosbystillsnash.html
+TIMOMATIC <//> t/timomatic.html
+ASHES REMAIN <//> a/ashesremain.html
+THOMAS, DANTE <//> t/thomas.html
+X JAPAN <//> x/xjapan.html
+JONES, AUSTIN <//> a/austinjones.html
+JORDYN JONES <//> j/jordynjones.html
+SHWAYZE <//> s/shwayze.html
+BENNY <//> b/benny.html
+LIL REESE <//> l/lilreese.html
+POETS OF THE FALL <//> p/poetsofthefall.html
+ADDISON ROAD <//> a/addisonroad.html
+RIVERMAYA <//> r/rivermaya.html
+ERASERHEADS <//> e/eraserheads.html
+YEARWOOD, TRISHA <//> t/trishayearwood.html
+WAKEY!WAKEY! <//> w/wakeywakey.html
+GOT7 <//> g/got7.html
+WILLIAMS, PHARRELL <//> w/williamsp.html
+ESCAPE THE FATE <//> e/escapethefate.html
+AMBER RILEY <//> a/amberriley.html
+CLARK, JR., GARY <//> g/garyclarkjr.html
+DIDDY <//> d/diddy.html
+BRYAN LANNING <//> b/bryanlanning.html
+MISSY HIGGINS <//> h/higgins.html
+LIL JON <//> l/liljon.html
+BARDOT <//> b/bardot.html
+DAMI IM <//> d/damiim.html
+A <//> a/a.html
+LUCKY BOYS CONFUSION <//> l/luckyboys.html
+HOPE FOR HAITI NOW <//> h/hopeforhaitinow.html
+YOAKAM, DWIGHT <//> d/dwightyoakam.html
+LEE, COCO <//> l/lee.html
+THUNDAMENTALS <//> t/thundamentals.html
+RICH HOMIE QUAN <//> r/richhomiequan.html
+BRIGHT EYES <//> b/brighteyes.html
+SWORN IN <//> s/swornin.html
+LEVON, ELEN <//> e/elenlevon.html
+MARGOT & THE NUCLEAR SO AND SO'S <//> m/margotthenuclearsoandsos.html
