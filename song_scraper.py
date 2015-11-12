@@ -14,8 +14,8 @@ maxCount = 200
 # songCount = 0
 # artistCount = 0
 
-START = 0 # start at this file
-END = 1
+START = 11 # start at this file
+END = 15
 NUM_ARTISTS = 158 # max number
 
 # make folder for song text files
