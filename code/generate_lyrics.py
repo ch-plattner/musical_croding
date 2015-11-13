@@ -19,7 +19,7 @@ def main():
             print "Let's make a", artist, "song..."
             print "Give us a few seconds to train our database...\n"
 
-            lyrics = generate_song_lyrics_baseline(artist, 500)
+            lyrics = generate_song_lyrics_baseline(artist, 300)
             print "Here are your emulated lyrics!"
             print lyrics
 
@@ -78,8 +78,6 @@ def generate_song_lyrics_baseline(artist, num_words):
         return out
 
     total_artist_word_frequencies = reduce(combine_two_counters, listOfCounters)
-    print total_artist_word_frequencies
-    #raise Exception("we're done")
     generated_words = [weightedRandomChoice(total_artist_word_frequencies) for _ in range(num_words)]
     return ' '.join(generated_words)
     
