@@ -3,8 +3,15 @@
 import os
 import shutil
 
-folderName = 'artists'
-artistsShuffle = open('artists_shuffle.txt', 'r')
+folderName = 'Data/artists'
+
+# Get the root path of this repo. Allows you to open the artist and lyrics
+# data more safely, now that they've been reorganized into different dirs.
+REPO_ROOT = os.popen("git rev-parse --show-toplevel").read().strip('\n')
+DATA_ROOT = REPO_ROOT + '/Data'
+
+artistsShuffle = open(DATA_ROOT + '/artists_shuffle.txt', 'r')
+
 maxCount = 50
 count = 0
 

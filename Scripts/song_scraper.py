@@ -9,7 +9,10 @@ import os
 import shutil
 
 baseURL = "http://www.azlyrics.com/"
-folderName = 'songs'
+# Same comment as all the other scripts. This gets the root path of our repo
+# because data files and dirs are not in the same place anymore; this is safer.
+REPO_ROOT = os.popen("git rev-parse --show-toplevel").read().strip('\n')
+folderName = REPO_ROOT + '/Data/songs'
 maxCount = 200
 # songCount = 0
 # artistCount = 0

@@ -5,9 +5,16 @@ from string import ascii_lowercase
 import urllib2
 import time
 import random
+import os
 
 baseURL = "http://www.azlyrics.com/"
-f = open('artists.txt', 'w')
+
+# Get the root path of this git repo. Allows you to open the artist and lyrics
+# data more safely, now that they've been reorganized into different dirs.
+REPO_ROOT = os.popen("git rev-parse --show-toplevel").read().strip('\n')
+DATA_ROOT = REPO_ROOT + '/Data'
+
+f = open(DATA_ROOT + '/artists.txt', 'w')
 
 alphabet = list(ascii_lowercase)
 random.shuffle(alphabet)
