@@ -7,7 +7,11 @@ class SongParser:
 
 # Returns a list of all artists in our database
 def get_list_of_artists():
-    return ["Taylor Swift"]
+    artists = []
+    artists_file = open('../lyrics/artists.txt', 'r')
+    for artist in artists_file:
+        artists.append(artist.strip())
+    return artists
 
 # Create model for the specified artist
 def get_all_song_lyrics(artist):
