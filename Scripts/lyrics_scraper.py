@@ -68,7 +68,7 @@ for line in songs:
 	# Every 10-15 songs, longer pause
 	counter -= 1
 	if counter <= 0:
-		pause = random.uniform(60, 90)
+		pause = random.uniform(90, 120)
 		print "Long pause: ", pause
 		time.sleep(pause)
 
