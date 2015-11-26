@@ -38,7 +38,7 @@ for line in songs:
 	if not os.path.exists(artistFolder):
 		os.mkdir(artistFolder)
 
-	textPath = os.path.join(artistFolder, artistName + ' // ' + songName + '.txt')
+	textPath = os.path.join(artistFolder, artistName + ' || ' + songName + '.txt')
 	if os.path.exists(textPath):
 		os.remove(textPath)
 
