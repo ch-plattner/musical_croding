@@ -14,12 +14,6 @@ baseURL = "http://www.azlyrics.com/"
 # path of our git repo.
 REPO_ROOT = os.popen("git rev-parse --show-toplevel").read().strip('\n')
 folderName = REPO_ROOT + 'Data/lyrics'
-maxCount = 200
-
-START = -1 # start at this file
-END = 0
-# ????????? Why is the max number of songs 158? Was this specifically for TSwift? - Owen 11.13.15
-NUM_SONGS = 158 # max number
 
 # make folder for song text files
 if not os.path.exists(folderName):
