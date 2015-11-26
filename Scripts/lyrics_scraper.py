@@ -46,7 +46,6 @@ for line in songs:
 	lyrics = open(textPath, 'a')
 
 	url = url[3::]
-	print url
 	page = urllib2.urlopen(baseURL + url)
 	soup = BeautifulSoup(page, 'html.parser')
 
