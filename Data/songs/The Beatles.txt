@@ -1,0 +1,427 @@
+The Beatles <//> I Saw Her Standing There <//> ../lyrics/beatles/isawherstandingthere.html
+The Beatles <//> Misery <//> ../lyrics/beatles/misery.html
+The Beatles <//> Anna (Go To Him) <//> ../lyrics/beatles/annagotohim.html
+The Beatles <//> Chains <//> ../lyrics/beatles/chains.html
+The Beatles <//> Boys <//> ../lyrics/beatles/boys.html
+The Beatles <//> Ask Me Why <//> ../lyrics/beatles/askmewhy.html
+The Beatles <//> Please Please Me <//> ../lyrics/beatles/pleasepleaseme.html
+The Beatles <//> Love Me Do <//> ../lyrics/beatles/lovemedo.html
+The Beatles <//> P.S. I Love You <//> ../lyrics/beatles/psiloveyou.html
+The Beatles <//> Baby It's You <//> ../lyrics/beatles/babyitsyou.html
+The Beatles <//> Do You Want To Know A Secret <//> ../lyrics/beatles/doyouwanttoknowasecret.html
+The Beatles <//> A Taste Of Honey <//> ../lyrics/beatles/atasteofhoney.html
+The Beatles <//> There's A Place <//> ../lyrics/beatles/theresaplace.html
+The Beatles <//> Twist And Shout <//> ../lyrics/beatles/twistandshout.html
+The Beatles <//> It Won't Be Long <//> ../lyrics/beatles/itwontbelong.html
+The Beatles <//> All I've Got To Do <//> ../lyrics/beatles/allivegottodo.html
+The Beatles <//> All My Loving <//> ../lyrics/beatles/allmyloving.html
+The Beatles <//> Don't Bother Me <//> ../lyrics/beatles/dontbotherme.html
+The Beatles <//> Little Child <//> ../lyrics/beatles/littlechild.html
+The Beatles <//> Till There Was You <//> ../lyrics/beatles/tilltherewasyou.html
+The Beatles <//> Please Mister Postman <//> ../lyrics/beatles/pleasemisterpostman.html
+The Beatles <//> Roll Over Beethoven <//> ../lyrics/beatles/rolloverbeethoven.html
+The Beatles <//> Hold Me Tight <//> ../lyrics/beatles/holdmetight.html
+The Beatles <//> You Really Got A Hold On Me <//> ../lyrics/beatles/youreallygotaholdonme.html
+The Beatles <//> I Wanna Be Your Man <//> ../lyrics/beatles/iwannabeyourman.html
+The Beatles <//> Devil In Her Heart <//> ../lyrics/beatles/devilinherheart.html
+The Beatles <//> Not A Second Time <//> ../lyrics/beatles/notasecondtime.html
+The Beatles <//> Money (That's What I Want) <//> ../lyrics/beatles/moneythatswhatiwant.html
+The Beatles <//> A Hard Day's Night <//> ../lyrics/beatles/aharddaysnight.html
+The Beatles <//> I Should Have Known Better <//> ../lyrics/beatles/ishouldhaveknownbetter.html
+The Beatles <//> If I Fell <//> ../lyrics/beatles/ififell.html
+The Beatles <//> I'm Happy Just To Dance With You <//> ../lyrics/beatles/imhappyjusttodancewithyou.html
+The Beatles <//> And I Love Her <//> ../lyrics/beatles/andiloveher.html
+The Beatles <//> Tell Me Why <//> ../lyrics/beatles/tellmewhy.html
+The Beatles <//> Can't Buy Me Love <//> ../lyrics/beatles/cantbuymelove.html
+The Beatles <//> Any Time At All <//> ../lyrics/beatles/anytimeatall.html
+The Beatles <//> I'll Cry Instead <//> ../lyrics/beatles/illcryinstead.html
+The Beatles <//> Things We Said Today <//> ../lyrics/beatles/thingswesaidtoday.html
+The Beatles <//> When I Get Home <//> ../lyrics/beatles/whenigethome.html
+The Beatles <//> You Can't Do That <//> ../lyrics/beatles/youcantdothat.html
+The Beatles <//> I'll Be Back <//> ../lyrics/beatles/illbeback.html
+The Beatles <//> No Reply <//> ../lyrics/beatles/noreply.html
+The Beatles <//> I'm A Loser <//> ../lyrics/beatles/imaloser.html
+The Beatles <//> Baby's In Black <//> ../lyrics/beatles/babysinblack.html
+The Beatles <//> Rock And Roll Music <//> ../lyrics/beatles/rockandrollmusic.html
+The Beatles <//> I'll Follow The Sun <//> ../lyrics/beatles/illfollowthesun.html
+The Beatles <//> Mr. Moonlight <//> ../lyrics/beatles/mrmoonlight.html
+The Beatles <//> Medley: Kansas City / Hey, Hey, Hey, Hey <//> ../lyrics/beatles/medleykansascityheyheyheyhey.html
+The Beatles <//> Eight Days A Week <//> ../lyrics/beatles/eightdaysaweek.html
+The Beatles <//> Words Of Love <//> ../lyrics/beatles/wordsoflove.html
+The Beatles <//> Honey Don't <//> ../lyrics/beatles/honeydont.html
+The Beatles <//> Every Little Thing <//> ../lyrics/beatles/everylittlething.html
+The Beatles <//> I Don't Want To Spoil The Party <//> ../lyrics/beatles/idontwanttospoiltheparty.html
+The Beatles <//> What You're Doing <//> ../lyrics/beatles/whatyouredoing.html
+The Beatles <//> Everybody's Trying To Be My Baby <//> ../lyrics/beatles/everybodystryingtobemybaby.html
+The Beatles <//> Help! <//> ../lyrics/beatles/help.html
+The Beatles <//> The Night Before <//> ../lyrics/beatles/thenightbefore.html
+The Beatles <//> You've Got To Hide Your Love Away <//> ../lyrics/beatles/youvegottohideyourloveaway.html
+The Beatles <//> I Need You <//> ../lyrics/beatles/ineedyou.html
+The Beatles <//> Another Girl <//> ../lyrics/beatles/anothergirl.html
+The Beatles <//> You're Going To Lose That Girl <//> ../lyrics/beatles/youregoingtolosethatgirl.html
+The Beatles <//> Ticket To Ride <//> ../lyrics/beatles/tickettoride.html
+The Beatles <//> Act Naturally <//> ../lyrics/beatles/actnaturally.html
+The Beatles <//> It's Only Love <//> ../lyrics/beatles/itsonlylove.html
+The Beatles <//> You Like Me Too Much <//> ../lyrics/beatles/youlikemetoomuch.html
+The Beatles <//> Tell Me What You See <//> ../lyrics/beatles/tellmewhatyousee.html
+The Beatles <//> I've Just Seen A Face <//> ../lyrics/beatles/ivejustseenaface.html
+The Beatles <//> Yesterday <//> ../lyrics/beatles/yesterday.html
+The Beatles <//> Dizzy Miss Lizzy <//> ../lyrics/beatles/dizzymisslizzy.html
+The Beatles <//> Drive My Car <//> ../lyrics/beatles/drivemycar.html
+The Beatles <//> Norwegian Wood (This Bird Has Flown) <//> ../lyrics/beatles/norwegianwoodthisbirdhasflown.html
+The Beatles <//> You Won't See Me <//> ../lyrics/beatles/youwontseeme.html
+The Beatles <//> Nowhere Man <//> ../lyrics/beatles/nowhereman.html
+The Beatles <//> Think For Yourself <//> ../lyrics/beatles/thinkforyourself.html
+The Beatles <//> The Word <//> ../lyrics/beatles/theword.html
+The Beatles <//> Michelle <//> ../lyrics/beatles/michelle.html
+The Beatles <//> What Goes On <//> ../lyrics/beatles/whatgoeson.html
+The Beatles <//> Girl <//> ../lyrics/beatles/girl.html
+The Beatles <//> I'm Looking Through You <//> ../lyrics/beatles/imlookingthroughyou.html
+The Beatles <//> In My Life <//> ../lyrics/beatles/inmylife.html
+The Beatles <//> Wait <//> ../lyrics/beatles/wait.html
+The Beatles <//> If I Needed Someone <//> ../lyrics/beatles/ifineededsomeone.html
+The Beatles <//> Run For Your Life <//> ../lyrics/beatles/runforyourlife.html
+The Beatles <//> Taxman <//> ../lyrics/beatles/taxman.html
+The Beatles <//> Eleanor Rigby <//> ../lyrics/beatles/eleanorrigby.html
+The Beatles <//> I'm Only Sleeping <//> ../lyrics/beatles/imonlysleeping.html
+The Beatles <//> Love You To <//> ../lyrics/beatles/loveyouto.html
+The Beatles <//> Here, There And Everywhere <//> ../lyrics/beatles/herethereandeverywhere.html
+The Beatles <//> Yellow Submarine <//> ../lyrics/beatles/yellowsubmarine.html
+The Beatles <//> She Said, She Said <//> ../lyrics/beatles/shesaidshesaid.html
+The Beatles <//> Good Day Sunshine <//> ../lyrics/beatles/gooddaysunshine.html
+The Beatles <//> And Your Bird Can Sing <//> ../lyrics/beatles/andyourbirdcansing.html
+The Beatles <//> For No One <//> ../lyrics/beatles/fornoone.html
+The Beatles <//> Doctor Robert <//> ../lyrics/beatles/doctorrobert.html
+The Beatles <//> I Want To Tell You <//> ../lyrics/beatles/iwanttotellyou.html
+The Beatles <//> Got To Get You Into My Life <//> ../lyrics/beatles/gottogetyouintomylife.html
+The Beatles <//> Tomorrow Never Knows <//> ../lyrics/beatles/tomorrowneverknows.html
+The Beatles <//> Sgt. Pepper's Lonely Hearts Club Band <//> ../lyrics/beatles/sgtpepperslonelyheartsclubband.html
+The Beatles <//> With A Little Help From My Friends <//> ../lyrics/beatles/withalittlehelpfrommyfriends.html
+The Beatles <//> Lucy In The Sky With Diamonds <//> ../lyrics/beatles/lucyintheskywithdiamonds.html
+The Beatles <//> Getting Better <//> ../lyrics/beatles/gettingbetter.html
+The Beatles <//> Fixing A Hole <//> ../lyrics/beatles/fixingahole.html
+The Beatles <//> She's Leaving Home <//> ../lyrics/beatles/shesleavinghome.html
+The Beatles <//> Being For The Benefit Of Mr. Kite! <//> ../lyrics/beatles/beingforthebenefitofmrkite.html
+The Beatles <//> Within You Without You <//> ../lyrics/beatles/withinyouwithoutyou.html
+The Beatles <//> When I'm Sixty Four <//> ../lyrics/beatles/whenimsixtyfour.html
+The Beatles <//> Lovely Rita <//> ../lyrics/beatles/lovelyrita.html
+The Beatles <//> Good Morning, Good Morning <//> ../lyrics/beatles/goodmorninggoodmorning.html
+The Beatles <//> Sgt. Pepper's Lonely Hearts Club Band (Reprise) <//> ../lyrics/beatles/sgtpepperslonelyheartsclubbandreprise.html
+The Beatles <//> A Day In The Life <//> ../lyrics/beatles/adayinthelife.html
+The Beatles <//> Magical Mystery Tour <//> ../lyrics/beatles/magicalmysterytour.html
+The Beatles <//> The Fool On The Hill <//> ../lyrics/beatles/thefoolonthehill.html
+The Beatles <//> Flying <//> ../lyrics/beatles/flying.html
+The Beatles <//> Blue Jay Way <//> ../lyrics/beatles/bluejayway.html
+The Beatles <//> Your Mother Should Know <//> ../lyrics/beatles/yourmothershouldknow.html
+The Beatles <//> I Am The Walrus <//> ../lyrics/beatles/iamthewalrus.html
+The Beatles <//> Hello, Goodbye <//> ../lyrics/beatles/hellogoodbye.html
+The Beatles <//> Strawberry Fields Forever <//> ../lyrics/beatles/strawberryfieldsforever.html
+The Beatles <//> Penny Lane <//> ../lyrics/beatles/pennylane.html
+The Beatles <//> Baby, You're A Rich Man <//> ../lyrics/beatles/babyyourearichman.html
+The Beatles <//> All You Need Is Love <//> ../lyrics/beatles/allyouneedislove.html
+The Beatles <//> Back In The U.S.S.R. <//> ../lyrics/beatles/backintheussr.html
+The Beatles <//> Dear Prudence <//> ../lyrics/beatles/dearprudence.html
+The Beatles <//> Glass Onion <//> ../lyrics/beatles/glassonion.html
+The Beatles <//> Ob-La-Di, Ob-La-Da <//> ../lyrics/beatles/obladioblada.html
+The Beatles <//> Wild Honey Pie <//> ../lyrics/beatles/wildhoneypie.html
+The Beatles <//> The Continuing Story Of Bungalow Bill <//> ../lyrics/beatles/thecontinuingstoryofbungalowbill.html
+The Beatles <//> While My Guitar Gently Weeps <//> ../lyrics/beatles/whilemyguitargentlyweeps.html
+The Beatles <//> Happiness Is A Warm Gun <//> ../lyrics/beatles/happinessisawarmgun.html
+The Beatles <//> Martha My Dear <//> ../lyrics/beatles/marthamydear.html
+The Beatles <//> I'm So Tired <//> ../lyrics/beatles/imsotired.html
+The Beatles <//> Blackbird <//> ../lyrics/beatles/blackbird.html
+The Beatles <//> Piggies <//> ../lyrics/beatles/piggies.html
+The Beatles <//> Rocky Raccoon <//> ../lyrics/beatles/rockyraccoon.html
+The Beatles <//> Don't Pass Me By <//> ../lyrics/beatles/dontpassmeby.html
+The Beatles <//> Why Don't We Do It In The Road? <//> ../lyrics/beatles/whydontwedoitintheroad.html
+The Beatles <//> I Will <//> ../lyrics/beatles/iwill.html
+The Beatles <//> Julia <//> ../lyrics/beatles/julia.html
+The Beatles <//> Birthday <//> ../lyrics/beatles/birthday.html
+The Beatles <//> Yer Blues <//> ../lyrics/beatles/yerblues.html
+The Beatles <//> Mother Nature's Son <//> ../lyrics/beatles/mothernaturesson.html
+The Beatles <//> Everybody's Got Something To Hide Except Me And My Monkey <//> ../lyrics/beatles/everybodysgotsomethingtohideexceptmeandmymonkey.html
+The Beatles <//> Sexy Sadie <//> ../lyrics/beatles/sexysadie.html
+The Beatles <//> Helter Skelter <//> ../lyrics/beatles/helterskelter.html
+The Beatles <//> Long, Long, Long <//> ../lyrics/beatles/longlonglong.html
+The Beatles <//> Revolution 1 <//> ../lyrics/beatles/revolution1.html
+The Beatles <//> Honey Pie <//> ../lyrics/beatles/honeypie.html
+The Beatles <//> Savoy Truffle <//> ../lyrics/beatles/savoytruffle.html
+The Beatles <//> Cry Baby Cry <//> ../lyrics/beatles/crybabycry.html
+The Beatles <//> Revolution 9 <//> ../lyrics/beatles/revolution9.html
+The Beatles <//> Good Night <//> ../lyrics/beatles/goodnight.html
+The Beatles <//> Yellow Submarine <//> ../lyrics/beatles/yellowsubmarine.html
+The Beatles <//> Only A Northern Song <//> ../lyrics/beatles/onlyanorthernsong.html
+The Beatles <//> All Together Now <//> ../lyrics/beatles/alltogethernow.html
+The Beatles <//> Hey Bulldog <//> ../lyrics/beatles/heybulldog.html
+The Beatles <//> It's All Too Much <//> ../lyrics/beatles/itsalltoomuch.html
+The Beatles <//> All You Need Is Love <//> ../lyrics/beatles/allyouneedislove.html
+The Beatles <//> Pepperland <//> ../lyrics/beatles/pepperland.html
+The Beatles <//> Medley: Sea Of Time & Sea Of Holes <//> ../lyrics/beatles/medleyseaoftimeseaofholes.html
+The Beatles <//> Sea Of Monsters <//> ../lyrics/beatles/seaofmonsters.html
+The Beatles <//> March Of The Meanies <//> ../lyrics/beatles/marchofthemeanies.html
+The Beatles <//> Pepperland Laid Waste <//> ../lyrics/beatles/pepperlandlaidwaste.html
+The Beatles <//> Yellow Submarine In Pepperland <//> ../lyrics/beatles/yellowsubmarineinpepperland.html
+The Beatles <//> Come Together <//> ../lyrics/beatles/cometogether.html
+The Beatles <//> Something <//> ../lyrics/beatles/something.html
+The Beatles <//> Maxwell's Silver Hammer <//> ../lyrics/beatles/maxwellssilverhammer.html
+The Beatles <//> Oh! Darling <//> ../lyrics/beatles/ohdarling.html
+The Beatles <//> Octopus's Garden <//> ../lyrics/beatles/octopussgarden.html
+The Beatles <//> I Want You (She's So Heavy) <//> ../lyrics/beatles/iwantyoushessoheavy.html
+The Beatles <//> Here Comes The Sun <//> ../lyrics/beatles/herecomesthesun.html
+The Beatles <//> Because <//> ../lyrics/beatles/because.html
+The Beatles <//> You Never Give Me Your Money <//> ../lyrics/beatles/younevergivemeyourmoney.html
+The Beatles <//> Sun King <//> ../lyrics/beatles/sunking.html
+The Beatles <//> Mean Mr. Mustard <//> ../lyrics/beatles/meanmrmustard.html
+The Beatles <//> Polythene Pam <//> ../lyrics/beatles/polythenepam.html
+The Beatles <//> She Came In Through The Bathroom Window <//> ../lyrics/beatles/shecameinthroughthebathroomwindow.html
+The Beatles <//> Golden Slumbers <//> ../lyrics/beatles/goldenslumbers.html
+The Beatles <//> Carry That Weight <//> ../lyrics/beatles/carrythatweight.html
+The Beatles <//> The End <//> ../lyrics/beatles/theend.html
+The Beatles <//> Her Majesty <//> ../lyrics/beatles/hermajesty.html
+The Beatles <//> Two Of Us <//> ../lyrics/beatles/twoofus.html
+The Beatles <//> Dig A Pony <//> ../lyrics/beatles/digapony.html
+The Beatles <//> Across The Universe <//> ../lyrics/beatles/acrosstheuniverse.html
+The Beatles <//> I Me Mine <//> ../lyrics/beatles/imemine.html
+The Beatles <//> Dig It <//> ../lyrics/beatles/digit.html
+The Beatles <//> Let It Be <//> ../lyrics/beatles/letitbe.html
+The Beatles <//> Maggie Mae <//> ../lyrics/beatles/maggiemae.html
+The Beatles <//> I've Got A Feeling <//> ../lyrics/beatles/ivegotafeeling.html
+The Beatles <//> One After 909 <//> ../lyrics/beatles/oneafter909.html
+The Beatles <//> The Long And Winding Road <//> ../lyrics/beatles/thelongandwindingroad.html
+The Beatles <//> For You Blue <//> ../lyrics/beatles/foryoublue.html
+The Beatles <//> Get Back <//> ../lyrics/beatles/getback.html
+The Beatles <//> Love Me Do <//> ../lyrics/beatles/lovemedo.html
+The Beatles <//> From Me To You <//> ../lyrics/beatles/frommetoyou.html
+The Beatles <//> Thank You Girl <//> ../lyrics/beatles/thankyougirl.html
+The Beatles <//> She Loves You <//> ../lyrics/beatles/shelovesyou.html
+The Beatles <//> I'll Get You <//> ../lyrics/beatles/illgetyou.html
+The Beatles <//> I Want To Hold Your Hand <//> ../lyrics/beatles/iwanttoholdyourhand.html
+The Beatles <//> This Boy <//> ../lyrics/beatles/thisboy.html
+The Beatles <//> Komm, Gib Mir Deine Hand <//> ../lyrics/beatles/kommgibmirdeinehand.html
+The Beatles <//> Sie Liebt Dich <//> ../lyrics/beatles/sieliebtdich.html
+The Beatles <//> Long Tall Sally <//> ../lyrics/beatles/longtallsally.html
+The Beatles <//> I Call Your Name <//> ../lyrics/beatles/icallyourname.html
+The Beatles <//> Slow Down <//> ../lyrics/beatles/slowdown.html
+The Beatles <//> Matchbox <//> ../lyrics/beatles/matchbox.html
+The Beatles <//> I Feel Fine <//> ../lyrics/beatles/ifeelfine.html
+The Beatles <//> She's A Woman <//> ../lyrics/beatles/shesawoman.html
+The Beatles <//> Bad Boy <//> ../lyrics/beatles/badboy.html
+The Beatles <//> Yes It Is <//> ../lyrics/beatles/yesitis.html
+The Beatles <//> I'm Down <//> ../lyrics/beatles/imdown.html
+The Beatles <//> Day Tripper <//> ../lyrics/beatles/daytripper.html
+The Beatles <//> We Can Work It Out <//> ../lyrics/beatles/wecanworkitout.html
+The Beatles <//> Paperback Writer <//> ../lyrics/beatles/paperbackwriter.html
+The Beatles <//> Rain <//> ../lyrics/beatles/rain.html
+The Beatles <//> Lady Madonna <//> ../lyrics/beatles/ladymadonna.html
+The Beatles <//> The Inner Light <//> ../lyrics/beatles/theinnerlight.html
+The Beatles <//> Hey Jude <//> ../lyrics/beatles/heyjude.html
+The Beatles <//> Revolution <//> ../lyrics/beatles/revolution.html
+The Beatles <//> Get Back <//> ../lyrics/beatles/getback.html
+The Beatles <//> Don't Let Me Down <//> ../lyrics/beatles/dontletmedown.html
+The Beatles <//> The Ballad Of John And Yoko <//> ../lyrics/beatles/theballadofjohnandyoko.html
+The Beatles <//> Old Brown Shoe <//> ../lyrics/beatles/oldbrownshoe.html
+The Beatles <//> Across The Universe <//> ../lyrics/beatles/acrosstheuniverse.html
+The Beatles <//> Let It Be <//> ../lyrics/beatles/letitbe.html
+The Beatles <//> You Know My Name (Look Up The Number) <//> ../lyrics/beatles/youknowmynamelookupthenumber.html
+The Beatles <//> Beatle Greetings <//> ../lyrics/beatles/beatlegreetings.html
+The Beatles <//> From Us To You <//> ../lyrics/beatles/fromustoyou.html
+The Beatles <//> Riding On A Bus <//> ../lyrics/beatles/ridingonabus.html
+The Beatles <//> I Got A Woman <//> ../lyrics/beatles/igotawoman.html
+The Beatles <//> Too Much Monkey Business <//> ../lyrics/beatles/toomuchmonkeybusiness.html
+The Beatles <//> Keep Your Hands Off My Baby <//> ../lyrics/beatles/keepyourhandsoffmybaby.html
+The Beatles <//> I'll Be On My Way <//> ../lyrics/beatles/illbeonmyway.html
+The Beatles <//> Young Blood <//> ../lyrics/beatles/youngblood.html
+The Beatles <//> A Shot Of Rhythm And Blues <//> ../lyrics/beatles/ashotofrhythmandblues.html
+The Beatles <//> Sure To Fall (In Love With You) <//> ../lyrics/beatles/suretofallinlovewithyou.html
+The Beatles <//> Some Other Guy <//> ../lyrics/beatles/someotherguy.html
+The Beatles <//> Thank You Girl <//> ../lyrics/beatles/thankyougirl.html
+The Beatles <//> Sha La La La La! <//> ../lyrics/beatles/shalalalala.html
+The Beatles <//> Baby It's You <//> ../lyrics/beatles/babyitsyou.html
+The Beatles <//> That's Alright (Mama) <//> ../lyrics/beatles/thatsalrightmama.html
+The Beatles <//> Carol <//> ../lyrics/beatles/carol.html
+The Beatles <//> Soldier Of Love <//> ../lyrics/beatles/soldieroflove.html
+The Beatles <//> A Little Rhyme <//> ../lyrics/beatles/alittlerhyme.html
+The Beatles <//> Clarabella <//> ../lyrics/beatles/clarabella.html
+The Beatles <//> I'm Gonna Sit Right Down And Cry (Over You) <//> ../lyrics/beatles/imgonnasitrightdownandcryoveryou.html
+The Beatles <//> Crying, Waiting, Hoping <//> ../lyrics/beatles/cryingwaitinghoping.html
+The Beatles <//> Dear Wack! <//> ../lyrics/beatles/dearwack.html
+The Beatles <//> You Really Got A Hold On Me <//> ../lyrics/beatles/youreallygotaholdonme.html
+The Beatles <//> To Know Her Is To Love Her <//> ../lyrics/beatles/toknowheristoloveher.html
+The Beatles <//> A Taste Of Honey <//> ../lyrics/beatles/atasteofhoney.html
+The Beatles <//> Long Tall Sally <//> ../lyrics/beatles/longtallsally.html
+The Beatles <//> I Saw Her Standing There <//> ../lyrics/beatles/isawherstandingthere.html
+The Beatles <//> The Honeymoon Song <//> ../lyrics/beatles/thehoneymoonsong.html
+The Beatles <//> Johnny B. Goode <//> ../lyrics/beatles/johnnybgoode.html
+The Beatles <//> Memphis, Tennessee <//> ../lyrics/beatles/memphistennessee.html
+The Beatles <//> Lucille <//> ../lyrics/beatles/lucille.html
+The Beatles <//> Can't Buy Me Love <//> ../lyrics/beatles/cantbuymelove.html
+The Beatles <//> From Fluff To You <//> ../lyrics/beatles/fromflufftoyou.html
+The Beatles <//> Till There Was You <//> ../lyrics/beatles/tilltherewasyou.html
+The Beatles <//> Crinsk Dee Night <//> ../lyrics/beatles/crinskdeenight.html
+The Beatles <//> A Hard Day's Night <//> ../lyrics/beatles/aharddaysnight.html
+The Beatles <//> Have A Banana! <//> ../lyrics/beatles/haveabanana.html
+The Beatles <//> I Wanna Be Your Man <//> ../lyrics/beatles/iwannabeyourman.html
+The Beatles <//> Just A Rumour <//> ../lyrics/beatles/justarumour.html
+The Beatles <//> Roll Over Beethoven <//> ../lyrics/beatles/rolloverbeethoven.html
+The Beatles <//> All My Loving <//> ../lyrics/beatles/allmyloving.html
+The Beatles <//> Things We Said Today <//> ../lyrics/beatles/thingswesaidtoday.html
+The Beatles <//> She's A Woman <//> ../lyrics/beatles/shesawoman.html
+The Beatles <//> Sweet Little Sixteen <//> ../lyrics/beatles/sweetlittlesixteen.html
+The Beatles <//> 1822! <//> ../lyrics/beatles/1822.html
+The Beatles <//> Lonesome Tears In My Eyes <//> ../lyrics/beatles/lonesometearsinmyeyes.html
+The Beatles <//> Nothin' Shakin' <//> ../lyrics/beatles/nothinshakin.html
+The Beatles <//> The Hippy Hippy Shake <//> ../lyrics/beatles/thehippyhippyshake.html
+The Beatles <//> Glad All Over <//> ../lyrics/beatles/gladallover.html
+The Beatles <//> I Just Don't Understand <//> ../lyrics/beatles/ijustdontunderstand.html
+The Beatles <//> So How Come (No One Loves Me) <//> ../lyrics/beatles/sohowcomenoonelovesme.html
+The Beatles <//> I Feel Fine <//> ../lyrics/beatles/ifeelfine.html
+The Beatles <//> I'm A Loser <//> ../lyrics/beatles/imaloser.html
+The Beatles <//> Everybody's Trying To Be My Baby <//> ../lyrics/beatles/everybodystryingtobemybaby.html
+The Beatles <//> Rock And Roll Music <//> ../lyrics/beatles/rockandrollmusic.html
+The Beatles <//> Ticket To Ride <//> ../lyrics/beatles/tickettoride.html
+The Beatles <//> Dizzy Miss Lizzy <//> ../lyrics/beatles/dizzymisslizzy.html
+The Beatles <//> Medley: Kansas City / Hey, Hey, Hey, Hey <//> ../lyrics/beatles/medleykansascityheyheyheyhey.html
+The Beatles <//> Set Fire To That Lot! <//> ../lyrics/beatles/setfiretothatlot.html
+The Beatles <//> Matchbox <//> ../lyrics/beatles/matchbox.html
+The Beatles <//> I Forgot To Remember To Forget <//> ../lyrics/beatles/iforgottoremembertoforget.html
+The Beatles <//> Love These Goon Shows! <//> ../lyrics/beatles/lovethesegoonshows.html
+The Beatles <//> I Got To Find My Baby <//> ../lyrics/beatles/igottofindmybaby.html
+The Beatles <//> Ooh! My Soul <//> ../lyrics/beatles/oohmysoul.html
+The Beatles <//> Ooh! My Arms <//> ../lyrics/beatles/oohmyarms.html
+The Beatles <//> Don't Ever Change <//> ../lyrics/beatles/donteverchange.html
+The Beatles <//> Slow Down <//> ../lyrics/beatles/slowdown.html
+The Beatles <//> Honey Don't <//> ../lyrics/beatles/honeydont.html
+The Beatles <//> Love Me Do <//> ../lyrics/beatles/lovemedo.html
+The Beatles <//> Free As A Bird <//> ../lyrics/beatles/freeasabird.html
+The Beatles <//> That'll Be The Day <//> ../lyrics/beatles/thatllbetheday.html
+The Beatles <//> In Spite Of All The Danger <//> ../lyrics/beatles/inspiteofallthedanger.html
+The Beatles <//> Hallelujah, I Love Her So <//> ../lyrics/beatles/hallelujahiloveherso.html
+The Beatles <//> You'll Be Mine <//> ../lyrics/beatles/youllbemine.html
+The Beatles <//> My Bonnie <//> ../lyrics/beatles/mybonnie.html
+The Beatles <//> Ain't She Sweet <//> ../lyrics/beatles/aintshesweet.html
+The Beatles <//> Searchin' <//> ../lyrics/beatles/searchin.html
+The Beatles <//> Three Cool Cats <//> ../lyrics/beatles/threecoolcats.html
+The Beatles <//> The Sheik Of Araby <//> ../lyrics/beatles/thesheikofaraby.html
+The Beatles <//> Like Dreamers Do <//> ../lyrics/beatles/likedreamersdo.html
+The Beatles <//> Hello Little Girl <//> ../lyrics/beatles/hellolittlegirl.html
+The Beatles <//> Besame Mucho <//> ../lyrics/beatles/besamemucho.html
+The Beatles <//> Love Me Do <//> ../lyrics/beatles/lovemedo.html
+The Beatles <//> How Do You Do It <//> ../lyrics/beatles/howdoyoudoit.html
+The Beatles <//> Please Please Me <//> ../lyrics/beatles/pleasepleaseme.html
+The Beatles <//> One After 909 <//> ../lyrics/beatles/oneafter909.html
+The Beatles <//> Lend Me Your Comb <//> ../lyrics/beatles/lendmeyourcomb.html
+The Beatles <//> I'll Get You <//> ../lyrics/beatles/illgetyou.html
+The Beatles <//> I Saw Her Standing There <//> ../lyrics/beatles/isawherstandingthere.html
+The Beatles <//> From Me To You <//> ../lyrics/beatles/frommetoyou.html
+The Beatles <//> Money (That's What I Want) <//> ../lyrics/beatles/moneythatswhatiwant.html
+The Beatles <//> You Really Got A Hold On Me <//> ../lyrics/beatles/youreallygotaholdonme.html
+The Beatles <//> Roll Over Beethoven <//> ../lyrics/beatles/rolloverbeethoven.html
+The Beatles <//> She Loves You <//> ../lyrics/beatles/shelovesyou.html
+The Beatles <//> Till There Was You <//> ../lyrics/beatles/tilltherewasyou.html
+The Beatles <//> Twist And Shout <//> ../lyrics/beatles/twistandshout.html
+The Beatles <//> This Boy <//> ../lyrics/beatles/thisboy.html
+The Beatles <//> I Want To Hold Your Hand <//> ../lyrics/beatles/iwanttoholdyourhand.html
+The Beatles <//> Moonlight Bay <//> ../lyrics/beatles/moonlightbay.html
+The Beatles <//> Can't Buy Me Love <//> ../lyrics/beatles/cantbuymelove.html
+The Beatles <//> All My Loving <//> ../lyrics/beatles/allmyloving.html
+The Beatles <//> You Can't Do That <//> ../lyrics/beatles/youcantdothat.html
+The Beatles <//> And I Love Her <//> ../lyrics/beatles/andiloveher.html
+The Beatles <//> A Hard Day's Night <//> ../lyrics/beatles/aharddaysnight.html
+The Beatles <//> I Wanna Be Your Man <//> ../lyrics/beatles/iwannabeyourman.html
+The Beatles <//> Long Tall Sally <//> ../lyrics/beatles/longtallsally.html
+The Beatles <//> Boys <//> ../lyrics/beatles/boys.html
+The Beatles <//> Shout <//> ../lyrics/beatles/shout.html
+The Beatles <//> I'll Be Back <//> ../lyrics/beatles/illbeback.html
+The Beatles <//> You Know What To Do <//> ../lyrics/beatles/youknowwhattodo.html
+The Beatles <//> No Reply <//> ../lyrics/beatles/noreply.html
+The Beatles <//> Mr. Moonlight <//> ../lyrics/beatles/mrmoonlight.html
+The Beatles <//> Leave My Kitten Alone <//> ../lyrics/beatles/leavemykittenalone.html
+The Beatles <//> Eight Days A Week <//> ../lyrics/beatles/eightdaysaweek.html
+The Beatles <//> Medley: Kansas City / Hey, Hey, Hey, Hey <//> ../lyrics/beatles/medleykansascityheyheyheyhey.html
+The Beatles <//> Real Love <//> ../lyrics/beatles/reallove.html
+The Beatles <//> Yes It Is <//> ../lyrics/beatles/yesitis.html
+The Beatles <//> I'm Down <//> ../lyrics/beatles/imdown.html
+The Beatles <//> You've Got To Hide Your Love Away <//> ../lyrics/beatles/youvegottohideyourloveaway.html
+The Beatles <//> If You've Got Trouble <//> ../lyrics/beatles/ifyouvegottrouble.html
+The Beatles <//> That Means A Lot <//> ../lyrics/beatles/thatmeansalot.html
+The Beatles <//> Yesterday <//> ../lyrics/beatles/yesterday.html
+The Beatles <//> It's Only Love <//> ../lyrics/beatles/itsonlylove.html
+The Beatles <//> I Feel Fine <//> ../lyrics/beatles/ifeelfine.html
+The Beatles <//> Ticket To Ride <//> ../lyrics/beatles/tickettoride.html
+The Beatles <//> Yesterday <//> ../lyrics/beatles/yesterday.html
+The Beatles <//> Help! <//> ../lyrics/beatles/help.html
+The Beatles <//> Everybody's Trying To Be My Baby <//> ../lyrics/beatles/everybodystryingtobemybaby.html
+The Beatles <//> Norwegian Wood (This Bird Has Flown) <//> ../lyrics/beatles/norwegianwoodthisbirdhasflown.html
+The Beatles <//> I'm Looking Through You <//> ../lyrics/beatles/imlookingthroughyou.html
+The Beatles <//> Tomorrow Never Knows <//> ../lyrics/beatles/tomorrowneverknows.html
+The Beatles <//> Got To Get You Into My Life <//> ../lyrics/beatles/gottogetyouintomylife.html
+The Beatles <//> And Your Bird Can Sing <//> ../lyrics/beatles/andyourbirdcansing.html
+The Beatles <//> Taxman <//> ../lyrics/beatles/taxman.html
+The Beatles <//> Eleanor Rigby <//> ../lyrics/beatles/eleanorrigby.html
+The Beatles <//> I'm Only Sleeping <//> ../lyrics/beatles/imonlysleeping.html
+The Beatles <//> Rock And Roll Music <//> ../lyrics/beatles/rockandrollmusic.html
+The Beatles <//> She's A Woman <//> ../lyrics/beatles/shesawoman.html
+The Beatles <//> Strawberry Fields Forever <//> ../lyrics/beatles/strawberryfieldsforever.html
+The Beatles <//> Penny Lane <//> ../lyrics/beatles/pennylane.html
+The Beatles <//> A Day In The Life <//> ../lyrics/beatles/adayinthelife.html
+The Beatles <//> Good Morning, Good Morning <//> ../lyrics/beatles/goodmorninggoodmorning.html
+The Beatles <//> Only A Northern Song <//> ../lyrics/beatles/onlyanorthernsong.html
+The Beatles <//> Being For The Benefit Of Mr. Kite! <//> ../lyrics/beatles/beingforthebenefitofmrkite.html
+The Beatles <//> Lucy In The Sky With Diamonds <//> ../lyrics/beatles/lucyintheskywithdiamonds.html
+The Beatles <//> Within You Without You <//> ../lyrics/beatles/withinyouwithoutyou.html
+The Beatles <//> Sgt. Pepper's Lonely Hearts Club Band (Reprise) <//> ../lyrics/beatles/sgtpepperslonelyheartsclubbandreprise.html
+The Beatles <//> You Know My Name (Look Up The Number) <//> ../lyrics/beatles/youknowmynamelookupthenumber.html
+The Beatles <//> I Am The Walrus <//> ../lyrics/beatles/iamthewalrus.html
+The Beatles <//> The Fool On The Hill <//> ../lyrics/beatles/thefoolonthehill.html
+The Beatles <//> Your Mother Should Know <//> ../lyrics/beatles/yourmothershouldknow.html
+The Beatles <//> Hello, Goodbye <//> ../lyrics/beatles/hellogoodbye.html
+The Beatles <//> Lady Madonna <//> ../lyrics/beatles/ladymadonna.html
+The Beatles <//> Across The Universe <//> ../lyrics/beatles/acrosstheuniverse.html
+The Beatles <//> Happiness Is A Warm Gun <//> ../lyrics/beatles/happinessisawarmgun.html
+The Beatles <//> Helter Skelter <//> ../lyrics/beatles/helterskelter.html
+The Beatles <//> Mean Mr. Mustard <//> ../lyrics/beatles/meanmrmustard.html
+The Beatles <//> Polythene Pam <//> ../lyrics/beatles/polythenepam.html
+The Beatles <//> Glass Onion <//> ../lyrics/beatles/glassonion.html
+The Beatles <//> Junk <//> ../lyrics/beatles/junk.html
+The Beatles <//> Piggies <//> ../lyrics/beatles/piggies.html
+The Beatles <//> Honey Pie <//> ../lyrics/beatles/honeypie.html
+The Beatles <//> Don't Pass Me By <//> ../lyrics/beatles/dontpassmeby.html
+The Beatles <//> Ob-La-Di, Ob-La-Da <//> ../lyrics/beatles/obladioblada.html
+The Beatles <//> Good Night <//> ../lyrics/beatles/goodnight.html
+The Beatles <//> Cry Baby Cry <//> ../lyrics/beatles/crybabycry.html
+The Beatles <//> Blackbird <//> ../lyrics/beatles/blackbird.html
+The Beatles <//> Sexy Sadie <//> ../lyrics/beatles/sexysadie.html
+The Beatles <//> While My Guitar Gently Weeps <//> ../lyrics/beatles/whilemyguitargentlyweeps.html
+The Beatles <//> Hey Jude <//> ../lyrics/beatles/heyjude.html
+The Beatles <//> Not Guilty <//> ../lyrics/beatles/notguilty.html
+The Beatles <//> Mother Nature's Son <//> ../lyrics/beatles/mothernaturesson.html
+The Beatles <//> Rocky Raccoon <//> ../lyrics/beatles/rockyraccoon.html
+The Beatles <//> What's The New Mary Jane <//> ../lyrics/beatles/whatsthenewmaryjane.html
+The Beatles <//> Step Inside Love / Los Paranoias <//> ../lyrics/beatles/stepinsidelovelosparanoias.html
+The Beatles <//> I'm So Tired <//> ../lyrics/beatles/imsotired.html
+The Beatles <//> I Will <//> ../lyrics/beatles/iwill.html
+The Beatles <//> Why Don't We Do It In The Road? <//> ../lyrics/beatles/whydontwedoitintheroad.html
+The Beatles <//> Julia <//> ../lyrics/beatles/julia.html
+The Beatles <//> I've Got A Feeling <//> ../lyrics/beatles/ivegotafeeling.html
+The Beatles <//> She Came In Through The Bathroom Window <//> ../lyrics/beatles/shecameinthroughthebathroomwindow.html
+The Beatles <//> Dig A Pony <//> ../lyrics/beatles/digapony.html
+The Beatles <//> Two Of Us <//> ../lyrics/beatles/twoofus.html
+The Beatles <//> For You Blue <//> ../lyrics/beatles/foryoublue.html
+The Beatles <//> Teddy Boy <//> ../lyrics/beatles/teddyboy.html
+The Beatles <//> Medley: Rip It Up / Shake, Rattle And Roll / Blue Suede Shoes <//> ../lyrics/beatles/medleyripitupshakerattleandrollbluesuedeshoes.html
+The Beatles <//> The Long And Winding Road <//> ../lyrics/beatles/thelongandwindingroad.html
+The Beatles <//> Oh! Darling <//> ../lyrics/beatles/ohdarling.html
+The Beatles <//> All Things Must Pass <//> ../lyrics/beatles/allthingsmustpass.html
+The Beatles <//> Mailman, Bring Me No More Blues <//> ../lyrics/beatles/mailmanbringmenomoreblues.html
+The Beatles <//> Get Back <//> ../lyrics/beatles/getback.html
+The Beatles <//> Old Brown Shoe <//> ../lyrics/beatles/oldbrownshoe.html
+The Beatles <//> Octopus's Garden <//> ../lyrics/beatles/octopussgarden.html
+The Beatles <//> Maxwell's Silver Hammer <//> ../lyrics/beatles/maxwellssilverhammer.html
+The Beatles <//> Something <//> ../lyrics/beatles/something.html
+The Beatles <//> Come Together <//> ../lyrics/beatles/cometogether.html
+The Beatles <//> Come And Get It <//> ../lyrics/beatles/comeandgetit.html
+The Beatles <//> Ain't She Sweet <//> ../lyrics/beatles/aintshesweet.html
+The Beatles <//> Because <//> ../lyrics/beatles/because.html
+The Beatles <//> Let It Be <//> ../lyrics/beatles/letitbe.html
+The Beatles <//> I Me Mine <//> ../lyrics/beatles/imemine.html
+The Beatles <//> The End <//> ../lyrics/beatles/theend.html
