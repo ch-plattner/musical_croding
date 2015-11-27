@@ -40,7 +40,7 @@ for line in songs:
 
 	textPath = os.path.join(artistFolder, artistName + ' || ' + songName.replace('/', '') + '.txt')
 	if os.path.exists(textPath):
-		os.remove(textPath)
+		continue
 
 	# Open file for lyrics
 	lyrics = open(textPath, 'a')
