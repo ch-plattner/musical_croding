@@ -28,7 +28,7 @@ name = sys.argv[1]
 songs = open(os.path.join(REPO_ROOT, 'Data', name + '.txt'), 'r')
 
 # after random number of songs, wait a longer period of time
-counter = random.uniform(10, 15)
+counter = random.uniform(12, 20)
 
 # for each artist, gather list of songs
 for line in songs:
@@ -61,16 +61,16 @@ for line in songs:
 	lyrics.close()
 
 	# Pause after finishing
-	pause = random.uniform(7, 13)
+	pause = random.uniform(7, 11)
 	print "Finished", artistName, ':', songName, '|| pausing for', pause
 	time.sleep(pause)
 
 	# Every 10-15 songs, longer pause
 	counter -= 1
 	if counter <= 0:
-		pause = random.uniform(90, 120)
+		pause = random.uniform(80, 100)
 		print "Long pause: ", pause
-		time.sleep(pause)
+		#time.sleep(pause)
 
 		counter = random.uniform(10, 15)
 
