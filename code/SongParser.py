@@ -1,4 +1,5 @@
 import os, sys
+from os import path
 from collections import Counter
 
 # Class: SongParser
@@ -6,9 +7,25 @@ from collections import Counter
 # ???
 #
 class SongParser:
-    def __init__(self):
+    # Constructor: SongParser
+    # -----------------------
+    # Takes in an optional argument, |song|, of the form
+    # "<artist> || <song_name>.txt"
+    # the same as each scraped lyrics file's name.
+    # If song is provided, then parsing and model creation
+    # are automatically initiated. It is up to the user to
+    # ensure the optional arg is correctly formatted. 
+    def __init__(self, song = None):
         self.root = os.popen("git rev-parse --show-toplevel").read().strip('\n') + "/Data/lyrics"
-    
+        # BELOW IS UNTESTED
+        if song != None:
+            artistname = song.split('||')[0].strip(' ')
+            self.parse_song(self.root + '/' + artistname + '/' + song)
+            self.create_unigram_model()
+            self.create_bigram_model()
+            self.create_trigram_model()
+
+
     # Function: parse_song
     # --------------------
     # Take the raw lyrics and clean it up. Remove noise, and
@@ -37,16 +54,22 @@ class SongParser:
     # THIS IS STILL UNTESTED
     # -------------------------------------
 
-# Note, it might be a good idea to build our own util.py with stuff like WeightedRandomChoice that percy made for what's below.
+# Note, it might be a good idea to build our own util.py with stuff like WeightedRandomChoice
 
     def create_unigram_model(self):
         model = Counter()
+        if len(self.lyrics) == 0:
+            raise Exception("No lyrics exist!")
+
         for line in self.lyrics:
             model.update(line.split())
         self.unigram_model = model
 
     def create_bigram_model(self):
         model = Counter()
+        if len(self.lyrics) == 0:
+            raise Exception("No lyrics exist!")
+
         for line in self.lyrics:
             words = line.split()
             model.update([(words[i], words[i+1]) for i in range(len(words)-1)])
@@ -54,6 +77,9 @@ class SongParser:
 
     def create_trigram_model(self):
         model = Counter()
+        if len(self.lyrics) == 0:
+            raise Exception("No lyrics exist!")
+
         for line in self.lyrics:
             words = line.split()
             model.update([(words[i], words[i+1], words[i+2]) for i in range(len(words)-2)])
@@ -70,21 +96,24 @@ class SongParser:
 ##########################################################
 if len(sys.argv) <= 1:
     sys.exit(0)
-if sys.argv[1] != "parse":
-    sys.exit(0)
 
 sp = SongParser()
-sp.parse_song(sp.root + "/Owl City/Owl City || Dementia.txt")
-print "\n"
-for line in sp.lyrics:
-    print line
+if "parse" in sys.argv:
+    sp.parse_song(sp.root + "/Owl City/Owl City || Dementia.txt")
+    print "\n"
+    for line in sp.lyrics:
+        print line
 
-sp.parse_song(sp.root + "/Bastille/Bastille || Laughter Lines.txt")
-print "\n"
-for line in sp.lyrics:
-    print line
+    sp.parse_song(sp.root + "/Bastille/Bastille || Laughter Lines.txt")
+    print "\n"
+    for line in sp.lyrics:
+        print line
 
-sp.parse_song(sp.root + "/Eminem/Eminem || Kill You.txt")
-print "\n"
-for line in sp.lyrics:
-    print line
+    sp.parse_song(sp.root + "/Eminem/Eminem || Kill You.txt")
+    print "\n"
+    for line in sp.lyrics:
+        print line
+
+if "model" in sys.argv:
+
+if "cons" in sys.argv:
