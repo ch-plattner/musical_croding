@@ -41,6 +41,7 @@ class Artist:
     # -----------------------
     # Creates unigram, bigram, and trigram models for the artist by aggregating
     # the respective weights from all of their songs.
+    # Note: We need laplace smoothing. What |lambda| value is, we can learn.
     def update_models(self):
         uni = Counter()
         bi = Counter()
