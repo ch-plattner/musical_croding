@@ -1,0 +1,196 @@
+Data/lyrics/Wiz Khalifa/Wiz Khalifa || Who I Am.txt
+Data/lyrics/Wiz Khalifa/Wiz Khalifa || Take Away.txt
+Data/lyrics/Wiz Khalifa/Wiz Khalifa || Star Of The Show.txt
+Data/lyrics/Wiz Khalifa/Wiz Khalifa || Black And Yellow.txt
+Data/lyrics/Usher/Usher || There Goes My Baby.txt
+Data/lyrics/Train/Train || Shake Up Christmas.txt
+Data/lyrics/The Rolling Stones/The Rolling Stones || The Spider And The Fly.txt
+Data/lyrics/The Rolling Stones/The Rolling Stones || The Last Time.txt
+Data/lyrics/The Rolling Stones/The Rolling Stones || Soul Survivor.txt
+Data/lyrics/The Rolling Stones/The Rolling Stones || Some Girls.txt
+Data/lyrics/The Rolling Stones/The Rolling Stones || She's A Rainbow.txt
+Data/lyrics/The Rolling Stones/The Rolling Stones || Route 66.txt
+Data/lyrics/The Rolling Stones/The Rolling Stones || Paint It Black.txt
+Data/lyrics/The Rolling Stones/The Rolling Stones || Mother's Little Helper.txt
+Data/lyrics/The Rolling Stones/The Rolling Stones || Midnight Rambler.txt
+Data/lyrics/The Rolling Stones/The Rolling Stones || Loving Cup.txt
+Data/lyrics/The Rolling Stones/The Rolling Stones || Love Is Strong.txt
+Data/lyrics/The Rolling Stones/The Rolling Stones || Just My Imagination (Running Away With Me).txt
+Data/lyrics/The Rolling Stones/The Rolling Stones || It's Only Rock 'N' Roll (But I Like It).txt
+Data/lyrics/The Rolling Stones/The Rolling Stones || Heart Of Stone.txt
+Data/lyrics/The Rolling Stones/The Rolling Stones || Happy.txt
+Data/lyrics/The Rolling Stones/The Rolling Stones || Far Away Eyes.txt
+Data/lyrics/The Rolling Stones/The Rolling Stones || Connection.txt
+Data/lyrics/The Rolling Stones/The Rolling Stones || Beast Of Burden.txt
+Data/lyrics/The Rolling Stones/The Rolling Stones || Anybody Seen My Baby?.txt
+Data/lyrics/The Rolling Stones/The Rolling Stones || Angie.txt
+Data/lyrics/The Rolling Stones/The Rolling Stones || (I Can't Get No) Satisfaction.txt
+Data/lyrics/The Beatles/The Beatles || Within You Without You.txt
+Data/lyrics/The Beatles/The Beatles || While My Guitar Gently Weeps.txt
+Data/lyrics/The Beatles/The Beatles || Ticket To Ride.txt
+Data/lyrics/The Beatles/The Beatles || Things We Said Today.txt
+Data/lyrics/The Beatles/The Beatles || Thank You Girl.txt
+Data/lyrics/The Beatles/The Beatles || Taxman.txt
+Data/lyrics/The Beatles/The Beatles || She's A Woman.txt
+Data/lyrics/The Beatles/The Beatles || She Came In Through The Bathroom Window.txt
+Data/lyrics/The Beatles/The Beatles || Sgt. Pepper's Lonely Hearts Club Band (Reprise).txt
+Data/lyrics/The Beatles/The Beatles || Piggies.txt
+Data/lyrics/The Beatles/The Beatles || Only A Northern Song.txt
+Data/lyrics/The Beatles/The Beatles || Octopus's Garden.txt
+Data/lyrics/The Beatles/The Beatles || Ob-La-Di, Ob-La-Da.txt
+Data/lyrics/The Beatles/The Beatles || Lucy In The Sky With Diamonds.txt
+Data/lyrics/The Beatles/The Beatles || Lady Madonna.txt
+Data/lyrics/The Beatles/The Beatles || It's Only Love.txt
+Data/lyrics/The Beatles/The Beatles || I'm Looking Through You.txt
+Data/lyrics/The Beatles/The Beatles || I'll Get You.txt
+Data/lyrics/The Beatles/The Beatles || I Am The Walrus.txt
+Data/lyrics/The Beatles/The Beatles || Everybody's Trying To Be My Baby.txt
+Data/lyrics/The Beatles/The Beatles || Can't Buy Me Love.txt
+Data/lyrics/The Beatles/The Beatles || A Taste Of Honey.txt
+Data/lyrics/The Beatles/The Beatles || A Day In The Life.txt
+Data/lyrics/Stevie Wonder/Stevie Wonder || Tomorrow Robins Will Sing.txt
+Data/lyrics/Stevie Wonder/Stevie Wonder || Superstition.txt
+Data/lyrics/Stevie Wonder/Stevie Wonder || Master Blaster.txt
+Data/lyrics/Stevie Wonder/Stevie Wonder || Higher Ground.txt
+Data/lyrics/Shawn Mendes/Shawn Mendes || Life Of The Party.txt
+Data/lyrics/Shakira/Shakira || Rabiosa.txt
+Data/lyrics/Sara Bareilles/Sara Bareilles || City.txt
+Data/lyrics/Sam Smith/Sam Smith || Latch (Acoustic).txt
+Data/lyrics/Prince/Prince || U're Gonna C Me.txt
+Data/lyrics/Prince/Prince || NPG Operator.txt
+Data/lyrics/Pink Floyd/Pink Floyd || Free Four.txt
+Data/lyrics/Pink Floyd/Pink Floyd || Arnold Layne.txt
+Data/lyrics/Pentatonix/Pentatonix || Can't Sleep Love.txt
+Data/lyrics/Paul Mccartney/Paul Mccartney || The Long And Winding Road.txt
+Data/lyrics/Paul Mccartney/Paul Mccartney || That Would Be Something.txt
+Data/lyrics/Paul Mccartney/Paul Mccartney || My Brave Face.txt
+Data/lyrics/Paul Mccartney/Paul Mccartney || Every Night.txt
+Data/lyrics/Paul Mccartney/Paul Mccartney || Baby's Request.txt
+Data/lyrics/Nicki Minaj/Nicki Minaj || Va Va Voom.txt
+Data/lyrics/Nicki Minaj/Nicki Minaj || Sunshine.txt
+Data/lyrics/Newsboys/Newsboys || I Surrender All.txt
+Data/lyrics/Newsboys/Newsboys || Hallelujah.txt
+Data/lyrics/Meghan Trainor/Meghan Trainor || Dear Future Husband.txt
+Data/lyrics/Marvin Gaye/Marvin Gaye || Baby, I Need Your Loving.txt
+Data/lyrics/Mariah Carey/Mariah Carey || Without You.txt
+Data/lyrics/Mariah Carey/Mariah Carey || Whenever You Call.txt
+Data/lyrics/Mariah Carey/Mariah Carey || Vision Of Love.txt
+Data/lyrics/Mariah Carey/Mariah Carey || I Don't Wanna Cry.txt
+Data/lyrics/Mariah Carey/Mariah Carey || Always Be My Baby.txt
+Data/lyrics/Madonna/Madonna || Like A Prayer.txt
+Data/lyrics/Madonna/Madonna || Burning Up.txt
+Data/lyrics/Lecrae/Lecrae || Round Of Applause.txt
+Data/lyrics/Lana Del Rey/Lana Del Rey || Yayo.txt
+Data/lyrics/Lady Gaga/Lady Gaga || The Edge Of Glory.txt
+Data/lyrics/Lady Antebellum/Lady Antebellum || All I Want For Christmas Is You.txt
+Data/lyrics/Johnny Cash/Johnny Cash || You Beat All I Ever Saw.txt
+Data/lyrics/Johnny Cash/Johnny Cash || Wreck Of The Old '97.txt
+Data/lyrics/Johnny Cash/Johnny Cash || The Road To Kaintuck.txt
+Data/lyrics/Johnny Cash/Johnny Cash || The Old Rugged Cross.txt
+Data/lyrics/Johnny Cash/Johnny Cash || That Silver Haired Daddy Of Mine.txt
+Data/lyrics/Johnny Cash/Johnny Cash || Second Honeymoon.txt
+Data/lyrics/Johnny Cash/Johnny Cash || Narration.txt
+Data/lyrics/Johnny Cash/Johnny Cash || I'm Leaving Now.txt
+Data/lyrics/Johnny Cash/Johnny Cash || I'll Remember You.txt
+Data/lyrics/Johnny Cash/Johnny Cash || I Still Miss Someone.txt
+Data/lyrics/Johnny Cash/Johnny Cash || Green Grow The Lilacs.txt
+Data/lyrics/Johnny Cash/Johnny Cash || Cry, Cry, Cry.txt
+Data/lyrics/Johnny Cash/Johnny Cash || Ballad Of The Harp Weaver.txt
+Data/lyrics/Johnny Cash/Johnny Cash || Amazing Grace.txt
+Data/lyrics/John Denver/John Denver || Take Me Home, Country Roads.txt
+Data/lyrics/John Denver/John Denver || Rhymes And Reasons.txt
+Data/lyrics/John Denver/John Denver || Mr. Bojangles.txt
+Data/lyrics/John Denver/John Denver || Matthew.txt
+Data/lyrics/John Denver/John Denver || Grandma's Feather Bed.txt
+Data/lyrics/John Denver/John Denver || Forest Lawn.txt
+Data/lyrics/John Denver/John Denver || City Of New Orleans.txt
+Data/lyrics/Jason Mraz/Jason Mraz || Tonight, Not Again.txt
+Data/lyrics/Jason Mraz/Jason Mraz || Sleep All Day.txt
+Data/lyrics/Jason Mraz/Jason Mraz || Coyotes.txt
+Data/lyrics/Jason Derulo/Jason Derulo || Vertigo.txt
+Data/lyrics/Jack Johnson/Jack Johnson || Better Together.txt
+Data/lyrics/Imagine Dragons/Imagine Dragons || It's Time.txt
+Data/lyrics/Iggy Azalea/Iggy Azalea || Change Your Life.txt
+Data/lyrics/Iggy Azalea/Iggy Azalea || Bounce.txt
+Data/lyrics/George Michael/George Michael || Somebody To Love.txt
+Data/lyrics/George Michael/George Michael || Praying For Time.txt
+Data/lyrics/George Michael/George Michael || Papa Was A Rolling Stone.txt
+Data/lyrics/George Michael/George Michael || Freedom '90.txt
+Data/lyrics/George Michael/George Michael || Father Figure.txt
+Data/lyrics/George Michael/George Michael || Faith.txt
+Data/lyrics/George Ezra/George Ezra || Over The Creek.txt
+Data/lyrics/George Ezra/George Ezra || Budapest.txt
+Data/lyrics/Foo Fighters/Foo Fighters || Alone + Easy Target.txt
+Data/lyrics/Fleetwood Mac/Fleetwood Mac || The Chain.txt
+Data/lyrics/Fleetwood Mac/Fleetwood Mac || Landslide.txt
+Data/lyrics/Fleetwood Mac/Fleetwood Mac || Dreams.txt
+Data/lyrics/Fleetwood Mac/Fleetwood Mac || Don't Stop.txt
+Data/lyrics/Fleetwood Mac/Fleetwood Mac || Coming Home.txt
+Data/lyrics/Fleetwood Mac/Fleetwood Mac || Big Love.txt
+Data/lyrics/Fleetwood Mac/Fleetwood Mac || Angel.txt
+Data/lyrics/Fall Out Boy/Fall Out Boy || Irresistible (Remix).txt
+Data/lyrics/Eminem/Eminem || Steve Berman (Skit).txt
+Data/lyrics/Eminem/Eminem || Stan.txt
+Data/lyrics/Eminem/Eminem || Sing For The Moment.txt
+Data/lyrics/Eminem/Eminem || Paul (Skit).txt
+Data/lyrics/Eminem/Eminem || Just Don't Give A Fuck.txt
+Data/lyrics/Eminem/Eminem || If I Had....txt
+Data/lyrics/Eminem/Eminem || Guilty Conscience.txt
+Data/lyrics/Eminem/Eminem || Cleanin Out My Closet.txt
+Data/lyrics/Elvis Presley/Elvis Presley || Young And Beautiful.txt
+Data/lyrics/Elvis Presley/Elvis Presley || Whole Lotta Shakin' Goin' On.txt
+Data/lyrics/Elvis Presley/Elvis Presley || Too Much.txt
+Data/lyrics/Elvis Presley/Elvis Presley || Tiger Man.txt
+Data/lyrics/Elvis Presley/Elvis Presley || That's All Right, Mama.txt
+Data/lyrics/Elvis Presley/Elvis Presley || See See Rider.txt
+Data/lyrics/Elvis Presley/Elvis Presley || Mystery Train.txt
+Data/lyrics/Elvis Presley/Elvis Presley || Loving You.txt
+Data/lyrics/Elvis Presley/Elvis Presley || Love Me.txt
+Data/lyrics/Elvis Presley/Elvis Presley || Let Me Be There.txt
+Data/lyrics/Elvis Presley/Elvis Presley || In The Ghetto.txt
+Data/lyrics/Elvis Presley/Elvis Presley || I Want To Be Free.txt
+Data/lyrics/Elvis Presley/Elvis Presley || I Feel So Bad.txt
+Data/lyrics/Elvis Presley/Elvis Presley || How Great Thou Art.txt
+Data/lyrics/Elvis Presley/Elvis Presley || Help Me.txt
+Data/lyrics/Elvis Presley/Elvis Presley || Guitar Man.txt
+Data/lyrics/Elvis Presley/Elvis Presley || Good Luck Charm.txt
+Data/lyrics/Elvis Presley/Elvis Presley || Big Boss Man.txt
+Data/lyrics/Elvis Presley/Elvis Presley || Are You Lonesome Tonight?.txt
+Data/lyrics/Elton John/Elton John || Saturday Night's Alright For Fighting.txt
+Data/lyrics/Elton John/Elton John || Sacrifice.txt
+Data/lyrics/Elton John/Elton John || I Guess That's Why They Call It The Blues.txt
+Data/lyrics/Elton John/Elton John || Grey Seal.txt
+Data/lyrics/Elton John/Elton John || Don't Go Breaking My Heart.txt
+Data/lyrics/Elton John/Elton John || Crocodile Rock.txt
+Data/lyrics/Elton John/Elton John || Burn Down The Mission.txt
+Data/lyrics/Elton John/Elton John || Bennie And The Jets.txt
+Data/lyrics/Ed Sheeran/Ed Sheeran || You Need Me, I Don't Need You.txt
+Data/lyrics/Ed Sheeran/Ed Sheeran || The City.txt
+Data/lyrics/Ed Sheeran/Ed Sheeran || The A Team.txt
+Data/lyrics/Drake/Drake || Uptown.txt
+Data/lyrics/Drake/Drake || The Calm.txt
+Data/lyrics/Drake/Drake || Best I Ever Had.txt
+Data/lyrics/Drake/Drake || Best I Ever Had (Remix).txt
+Data/lyrics/Chris Brown/Chris Brown || Which One.txt
+Data/lyrics/Cher/Cher || My Love.txt
+Data/lyrics/Cher/Cher || Love Hurts.txt
+Data/lyrics/Celine Dion/Celine Dion || To Love You More.txt
+Data/lyrics/Celine Dion/Celine Dion || The Power Of Love.txt
+Data/lyrics/Celine Dion/Celine Dion || Tellement J'ai D'amour Pour Toi.txt
+Data/lyrics/Celine Dion/Celine Dion || Ne Partez Pas Sans Moi.txt
+Data/lyrics/Celine Dion/Celine Dion || Ne Me Plaignez Pas.txt
+Data/lyrics/Celine Dion/Celine Dion || My Heart Will Go On.txt
+Data/lyrics/Celine Dion/Celine Dion || Let's Talk About Love.txt
+Data/lyrics/Celine Dion/Celine Dion || Les Oiseaux Du Bonheur.txt
+Data/lyrics/Celine Dion/Celine Dion || La Voix Du Bon Dieu.txt
+Data/lyrics/Celine Dion/Celine Dion || La Do Do La Do.txt
+Data/lyrics/Celine Dion/Celine Dion || Joyeux Noel.txt
+Data/lyrics/Celine Dion/Celine Dion || Je Crois Toi.txt
+Data/lyrics/Celine Dion/Celine Dion || It's All Coming Back To Me Now.txt
+Data/lyrics/Celine Dion/Celine Dion || If You Asked Me To.txt
+Data/lyrics/Celine Dion/Celine Dion || I'm Your Angel.txt
+Data/lyrics/Celine Dion/Celine Dion || D'amour Ou D'amitie.txt
+Data/lyrics/Celine Dion/Celine Dion || Comme Un Coeur Froid.txt
+Data/lyrics/Celine Dion/Celine Dion || Ce N'etait Qu'un Reve.txt
+Data/lyrics/Celine Dion/Celine Dion || C'est Pour Vivre.txt
+Data/lyrics/Celine Dion/Celine Dion || A Quatre Pas D'ici.txt

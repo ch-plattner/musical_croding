@@ -1,16 +1,5 @@
 import os
-REPO_ROOT = os.popen("git rev-parse --show-toplevel").read.strip('\n')
-
-# Class: SongParser
-# -----------------
-# ???
-#
-class SongParser:
-    def __init__(self):
-        pass
-
-    def parse_song(self, raw_lyrics):
-        pass
+REPO_ROOT = os.popen("git rev-parse --show-toplevel").read().strip('\n')
 
 # Function: get_list_of_artists
 # -----------------------------
@@ -24,8 +13,9 @@ def get_list_of_artists():
 
 # Function: get_all_song_lyrics
 # -----------------------------
-# Input: The name of the artist whose song lyrics we would like, as a string.
-# Output: A dictionary representing all the lyrics of the artist's songs.
+# Input: The name of the artist whose song lyrics we would like, as a stringi.
+#
+# Output: A dictionary representing the lyrics of each song from ONE artist.
 #         Key: The title of a song from the artist.
 #         Value: The entire raw text of the song, line breaks and all, as a string.
 #           (WARNING: the lyrics might have noisy symbols and comments. Hence raw.)
