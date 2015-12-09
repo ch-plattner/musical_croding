@@ -30,6 +30,10 @@ class SongParser:
             artistname = song.split('||')[0].strip(' ')
             self.parse_song(song)
             self.get_stats()
+            print self.name
+            # if len(self.lyrics) == 0:
+            #     os.remove(self.root + '/' + self.artistname + '/' + song)
+            #     return
             self.create_unigram_model()
             self.create_bigram_model()
             self.create_trigram_model()
@@ -40,8 +44,8 @@ class SongParser:
     # Take the raw lyrics and clean it up. Remove noise, and
     # return a list of song lines stored in |self.lyrics|. 
     def parse_song(self, song):
-        artistname = song.split('||')[0].strip(' ')
-        lyrics_file = open(self.root + '/' + artistname + '/' + song, 'r')
+        self.artistname = song.split('||')[0].strip(' ')
+        lyrics_file = open(self.root + '/' + self.artistname + '/' + song, 'r')
         self.lyrics = []
         self.name = song
         self.line_lengths = []

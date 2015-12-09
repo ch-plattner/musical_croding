@@ -35,8 +35,7 @@ class Artist:
     # and creates a SongParser for each.
     def register_all_songs(self, artist):
         files = os.listdir(os.path.join(self.root, artist))
-        self.songs = [SongParser.SongParser(entry) for entry in files if os.path.isfile(os.path.join(self.root, artist, entry))]
-
+        self.songs = [SongParser.SongParser(entry) for entry in files if os.path.isfile(os.path.join(self.root, artist, entry)) and entry != '.DS_Store']
             
     # Function: update_models
     # -----------------------
