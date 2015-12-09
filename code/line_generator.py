@@ -88,18 +88,18 @@ def generate_one_line(artist, theme=1, epsilon=0.0):
         second = next_word
     return line
 
-def generate_stanza(artist, length):
+def generate_stanza(artist, length, theme=1):
     stanza = ""
     for i in range(0, length):
-        stanza += generate_one_line(artist) + '\n'
+        stanza += generate_one_line(artist, theme) + '\n'
     return stanza
 
-def generate_song_lyrics(artist):
+def generate_song_lyrics(artist, theme=1):
     verse_length = random.randint(8, 14)
     chorus_length = random.randint(verse_length - 2, verse_length + 2)
-    verse1 = "[Verse 1]\n" + generate_stanza(artist, verse_length) +  "\n"
-    verse2 = "[Verse 2]\n" + generate_stanza(artist, verse_length) +  "\n"
-    chorus = "[Chorus]\n"  + generate_stanza(artist, chorus_length) +  "\n"
-    bridge = "[Bridge]\n"  + generate_stanza(artist, verse_length / 2) +  "\n"
+    verse1 = "[Verse 1]\n" + generate_stanza(artist, verse_length, theme) +  "\n"
+    verse2 = "[Verse 2]\n" + generate_stanza(artist, verse_length, theme) +  "\n"
+    chorus = "[Chorus]\n"  + generate_stanza(artist, chorus_length, theme) +  "\n"
+    bridge = "[Bridge]\n"  + generate_stanza(artist, verse_length / 2, theme) +  "\n"
     return "".join([verse1, chorus, verse2, bridge, chorus, chorus])
 

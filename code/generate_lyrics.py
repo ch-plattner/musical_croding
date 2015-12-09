@@ -22,7 +22,8 @@ def main():
             print "Give us a few seconds to train our database...\n"
             #lyrics = generate_song_lyrics_baseline(artist_name, 300)
             artist = Artist.Artist(artist_name)
-            print line_generator.generate_song_lyrics(artist)
+            theme = raw_input("Choose a theme between 1 and 3. ").strip()
+            print line_generator.generate_song_lyrics(artist, int(theme) - 1)
 
 ###################################################################
 
