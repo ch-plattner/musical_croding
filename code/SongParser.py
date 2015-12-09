@@ -30,7 +30,6 @@ class SongParser:
             artistname = song.split('||')[0].strip(' ')
             self.parse_song(song)
             self.get_stats()
-            print self.name
             # if len(self.lyrics) == 0:
             #     os.remove(self.root + '/' + self.artistname + '/' + song)
             #     return

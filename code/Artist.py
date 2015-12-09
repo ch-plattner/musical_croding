@@ -30,6 +30,7 @@ class Artist:
         self.register_all_songs(artist)
         self.update_clusters()
         self.update_models()
+        self.find_representative_words()
 
     # Function: register_all_songs
     # ----------------------------
@@ -46,7 +47,6 @@ class Artist:
         print "About to start theme clustering..."
         print "Please be patient."
         self.clusters = song_cluster.find_theme_clusters_by_artist(self.name)
-        print self.clusters
 
     # Function: get_cluster_number
     # ----------------------------
@@ -87,6 +87,23 @@ class Artist:
         for ngram in self.theme_values:
             self.theme_values[ngram] = self.normalize(self.theme_values[ngram])
 
+    # Function: find_representative_words
+    # -----------------------
+    # Finds the overrepresented words in each category.
+    def find_representative_words(self):
+        self.representative_words = {0: [], 1:[], 2:[]}
+        for uni in self.unigrams:
+            if self.theme_values[uni][0] > 0.8:
+                self.representative_words[0].append((uni, self.theme_values[uni][0]))
+            if self.theme_values[uni][1] > 0.8:
+                self.representative_words[1].append((uni, self.theme_values[uni][1]))
+            if self.theme_values[uni][2] > 0.8:
+                self.representative_words[2].append((uni, self.theme_values[uni][2]))
+
+        self.representative_words[0] = [x[0] for x in sorted(self.representative_words[0] ,key=lambda x: x[1])][-10:]
+        self.representative_words[1] = [x[0] for x in sorted(self.representative_words[1] ,key=lambda x: x[1])][-10:]
+        self.representative_words[2] = [x[0] for x in sorted(self.representative_words[2] ,key=lambda x: x[1])][-10:]
+
     # Function: update_models
     # -----------------------
     # Creates unigram, bigram, and trigram models for the artist by aggregating
@@ -121,8 +138,12 @@ class Artist:
 # class, you can stop here. Nothing below is of interest.
 #
 ##########################################################
-# def main():
-#     artist = Artist("Taylor Swift")
+def main():
+    artist = Artist("Taylor Swift")
+    for category in artist.representative_words:
+        print category
+        print artist.representative_words[category]
+        print ""
 #     # print artist.songs
 #     # for song in artist.songs:
 #         # print song.name, song.word_count, song.min_line, song.max_line, song.mean_line
@@ -131,5 +152,5 @@ class Artist:
 #     # print artist.trigrams
 
 
-# if __name__ == '__main__':
-#     main()
+if __name__ == '__main__':
+    main()
