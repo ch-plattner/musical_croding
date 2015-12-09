@@ -35,7 +35,9 @@ def get_all_song_lyrics(artist):
     songs = {}
     artist_root_dir = REPO_ROOT + '/Data/lyrics/' + artist + '/'
 
-    for song_filename in os.listdir(artist_root_dir):
+    list_of_songs = open(artist_root_dir + 'songs.txt', 'rb')
+    
+    for song_filename in list_of_songs:
         song_name = song_filename.split(' || ')[1].replace('.txt', '').strip()
         lyrics = open(artist_root_dir + song_filename.strip()).read()
         songs[song_name] = lyrics
