@@ -1,17 +1,11 @@
-from collections import *
-from numpy import *
+from collections import Counter
 import numpy as np
-
-import matplotlib.pyplot as plt
-import matplotlib.cm as cm
 
 import sklearn.cluster
 import sklearn.decomposition
-import sklearn.feature_extraction.text
-from sklearn.decomposition import PCA
 
-from nltk.stem.snowball import SnowballStemmer
 import nltk
+from nltk.stem.snowball import SnowballStemmer
 import song_parsing
 
 # This list contains the nltk part of speech codes for the parts of speech we want to cluster with.
@@ -33,20 +27,23 @@ def get_all_words_and_word_counts(songs):
         words = []
         for line in songs[song].split('\n'):
             t = nltk.word_tokenize(line.decode('utf-8'))
-            tagged = nltk.pos_tag(t)
-            for word in tagged:
-                if word[1] in DESIRED_POS:
-                    words.append(word[0])
+            
+            words.extend(t) # remove this
+            # tagged = nltk.pos_tag(t)
+            # for word in tagged:
+            #     if word[1] in DESIRED_POS:
+            #        words.append(word[0])
                                 
-        stemmed = []
-        for word in words: 
-            try:
-                stem = stemmer.stem(word)
-            except:
-                stem = word
-            stemmed.append(stem)
-                                    
-        counter = Counter(stemmed)
+        # stemmed = []
+        # for word in words: 
+        #     try:
+        #         stem = stemmer.stem(word)
+        #     except:
+        #         stem = word
+        #     stemmed.append(stem)
+        
+        counter = Counter(words) # remove this                     
+        #counter = Counter(stemmed)
         song_counters[song] = counter
         all_words = all_words.union( counter.iterkeys() )
 
@@ -77,8 +74,6 @@ def get_clusters(songs):
     all_words, song_counters = get_all_words_and_word_counts(songs)
     songs = list(songs.iteritems())
     
-    print songs 
-
     all_song_representations = get_all_representations_as_matrix(songs, song_counters, all_words)
         
     #TF-IDF
@@ -101,7 +96,10 @@ def get_clusters(songs):
             clusters[cluster].append(songs[song_index][0])
     return clusters
 
-
+# function: find_theme_clusters_by_artist
+# ---------------------------------------
+# @param artist : the artist whose songs we are clustering
+# @return a dictionary of cluster name to song titles in that cluster 
 def find_theme_clusters_by_artist(artist):
     songs = song_parsing.get_all_song_lyrics(artist)
     return get_clusters(songs)
