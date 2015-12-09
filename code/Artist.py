@@ -34,8 +34,9 @@ class Artist:
     # Given the artist, browses through all of the songs under that artist
     # and creates a SongParser for each.
     def register_all_songs(self, artist):
-        files = listdir(self.root + artist) 
-        self.songs = [SongParser(entry) for entry in files if isfile(entry)]
+        files = os.listdir(os.path.join(self.root, artist))
+        self.songs = [SongParser.SongParser(entry) for entry in files if os.path.isfile(os.path.join(self.root, artist, entry))]
+
             
     # Function: update_models
     # -----------------------
@@ -54,7 +55,6 @@ class Artist:
         self.bigrams = bi
         self.trigrams = tri
 
-
 ##########################################################
 #
 #   TEST CODE
@@ -63,3 +63,15 @@ class Artist:
 # class, you can stop here. Nothing below is of interest.
 #
 ##########################################################
+def main():
+    artist = Artist("Taylor Swift")
+    print artist.songs
+    for song in artist.songs:
+        print song.name, song.word_count, song.min_line, song.max_line, song.mean_line
+    # print artist.unigrams
+    # print artist.bigrams
+    # print artist.trigrams
+
+
+if __name__ == '__main__':
+    main()

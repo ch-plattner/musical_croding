@@ -1,5 +1,6 @@
 import nltk
 import song_parsing
+from nltk.draw import dispersion_plot
 
 class NLTKParser:
 	def __init__(self):
@@ -20,7 +21,10 @@ class NLTKParser:
 
 			fdist = nltk.FreqDist(bigrams) # Create frequency distribution
 			# print fdist.most_common(5) # Print 5 most common samples
-			
+
+			# text = nltk.Text(lyrics)
+			# text.dispersion_plot(lyrics)
+
 			break
 
 def main():

@@ -1,6 +1,7 @@
 import os, sys
 from os import path
 from collections import Counter
+import re
 
 # Class: SongParser
 # -----------------
@@ -28,6 +29,7 @@ class SongParser:
         if song != None:
             artistname = song.split('||')[0].strip(' ')
             self.parse_song(song)
+            self.get_stats()
             self.create_unigram_model()
             self.create_bigram_model()
             self.create_trigram_model()
@@ -42,7 +44,8 @@ class SongParser:
         lyrics_file = open(self.root + '/' + artistname + '/' + song, 'r')
         self.lyrics = []
         self.name = song
-         
+        self.line_lengths = []
+
         # Remove symbols not useful to our project, and lowercase everything.
         # Apostrophes may be appropriate, so those can stay.
         line = lyrics_file.readline()
@@ -51,7 +54,21 @@ class SongParser:
                 sanitary = line.translate(None, "`~!@#$%^&*()_+=[]\\{}|;:\",./<>?\n\r\a\b\f\t\v").lower()
                 if sanitary != "":
                     self.lyrics.append(sanitary)
+                    self.line_lengths.append(len(re.findall(r'\w+', line))) # Counts number of words in the line
             line = lyrics_file.readline()
+
+    # Function: get_stats
+    # --------------------
+    # Uses the |self.line_lengths| list from parse_song to calculate stats 
+    # such as the total word count, average line length, min/max 
+    # line length, and number of lines
+    def get_stats(self):
+        self.num_lines = len(self.line_lengths)
+        self.word_count = sum(self.line_lengths)
+        self.min_line = min(self.line_lengths)
+        self.max_line = max(self.line_lengths)
+        self.mean_line = self.word_count / float(self.num_lines)
+
             
     # -------------------------------------
     # Creating Markov models
@@ -99,42 +116,43 @@ class SongParser:
 # class, you can stop here. Nothing below is of interest.
 #
 ##########################################################
-if len(sys.argv) <= 1:
-    sys.exit(0)
+def main():
+    sp = SongParser()
+    # Raw lyrics parsing is tentatively successful!
+    # More extensive tests probably needed, these are like passing grader.py.
+    if "parse" in sys.argv:
+        sp.parse_song("Owl City || Dementia.txt")
+        print "\n"
+        for line in sp.lyrics:
+            print line
+        print sp.lyrics
 
-sp = SongParser()
-# Raw lyrics parsing is tentatively successful!
-# More extensive tests probably needed, these are like passing grader.py.
-if "parse" in sys.argv:
-    sp.parse_song("Owl City || Dementia.txt")
-    print "\n"
-    for line in sp.lyrics:
-        print line
-    print sp.lyrics
+        sp.parse_song("Eminem || Kill You.txt")
+        print "\n"
+        for line in sp.lyrics:
+            print line
+        print sp.lyrics
 
-    sp.parse_song("Eminem || Kill You.txt")
-    print "\n"
-    for line in sp.lyrics:
-        print line
-    print sp.lyrics
+        sp.parse_song("Bastille || Laughter Lines.txt")
+        print "\n"
+        for line in sp.lyrics:
+            print line
+        print sp.lyrics
 
-    sp.parse_song("Bastille || Laughter Lines.txt")
-    print "\n"
-    for line in sp.lyrics:
-        print line
-    print sp.lyrics
+    # This is tentatively successful too!
+    if "model" in sys.argv:
+        sp.parse_song("Bastille || Laughter Lines.txt")
+        sp.create_unigram_model()
+        sp.create_bigram_model()
+        sp.create_trigram_model()
+        print sp.unigrams, '\n', sp.bigrams, '\n', sp.trigrams
 
-# This is tentatively successful too!
-if "model" in sys.argv:
-    sp.parse_song("Bastille || Laughter Lines.txt")
-    sp.create_unigram_model()
-    sp.create_bigram_model()
-    sp.create_trigram_model()
-    print sp.unigrams, '\n', sp.bigrams, '\n', sp.trigrams
+    # As is this one!
+    if "cons" in sys.argv:
+        cp = SongParser("Owl City || Dementia.txt")
+        print cp.lyrics
+        print cp.unigrams, '\n', cp.bigrams, '\n', cp.trigrams
 
-# As is this one!
-if "cons" in sys.argv:
-    cp = SongParser("Owl City || Dementia.txt")
-    print cp.lyrics
-    print cp.unigrams, '\n', cp.bigrams, '\n', cp.trigrams
 
+if __name__ == '__main__':
+    main()
