@@ -2,26 +2,27 @@ import song_parsing
 import string
 import collections
 import random
+import Artist
+import line_generator
 
 def main():
     print "Welcome to Lyrics Generator! Let's make a song."
     print "Setting up artist database..."
     artist_database = song_parsing.get_list_of_artists()
 
-    # Get artist
+    # Get artist_name
     while True:
-        artist = raw_input("What artist would you like to emulate? (Press enter to exit.) ").strip()
-        if artist == "": 
+        artist_name = raw_input("What artist would you like to emulate? (Press enter to exit.) ").strip()
+        if artist_name == "": 
             break
-        if artist not in artist_database:
+        if artist_name not in artist_database:
             print "That artist is not in our database!\n"
         else:
-            print "Let's make a", artist, "song..."
+            print "Let's make a", artist_name, "song..."
             print "Give us a few seconds to train our database...\n"
-
-            lyrics = generate_song_lyrics_baseline(artist, 300)
-            print "Here are your emulated lyrics!"
-            print lyrics
+            #lyrics = generate_song_lyrics_baseline(artist_name, 300)
+            artist = Artist.Artist(artist_name)
+            print line_generator.generate_song_lyrics(artist)
 
 ###################################################################
 
