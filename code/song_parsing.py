@@ -42,6 +42,7 @@ def get_all_song_lyrics(artist):
     for song_filename in os.listdir(artist_root_dir):
         if song_filename == '.DS_Store':
             continue
+
         song_name = song_filename.split(' || ')[1].replace('.txt', '').strip()
         lyrics = open(artist_root_dir + song_filename.strip()).read()
         songs[song_name] = lyrics
