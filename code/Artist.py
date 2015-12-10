@@ -22,8 +22,6 @@ from nltk.tag.perceptron import PerceptronTagger
 #   clusters| = { <cluster number e.g. '2'> : [ list of songs under that cluster] }
 #
 
-
-#########      UNTESTED          ##################
 tagger = PerceptronTagger()
 stop_words = set(nltk.corpus.stopwords.words('english'))
 desired_pos = ['NOUN', 'VERB', "ADJ", "ADV"]
@@ -37,13 +35,9 @@ class Artist:
         self.name = artist
         self.register_all_songs(artist)
         # Theme functions:
-        print "theme functions:"
         self.update_clusters()
-        print "one"
         self.update_models()
-        print "two"
         self.find_representative_words()
-        print "three"
 
     # Function: register_all_songs
     # ----------------------------
@@ -107,10 +101,8 @@ class Artist:
     # -----------------------
     # Finds the overrepresented words in each category.
     def find_representative_words(self):
-        print "starting find_representative_words()"
         self.representative_words = {0: [], 1:[], 2:[]}
         for uni in self.unigrams:
-            print "uni = ", uni
             if '\'' not in uni and uni not in stop_words and nltk.tag._pos_tag([uni.decode('utf-8')], 'universal', tagger)[0][1] in desired_pos:
                 self.representative_words[0].append((uni, self.theme_values[uni][0]))
                 self.representative_words[1].append((uni, self.theme_values[uni][1]))
