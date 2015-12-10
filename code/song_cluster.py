@@ -11,7 +11,7 @@ import song_parsing
 # This list contains the nltk part of speech codes for the parts of speech we want to cluster with.
 # This includes nouns, adjectives, verbs, and adverbs.
 DESIRED_POS = ['IN', 'JJ', 'JJR', 'JJS', 'MD', 'NN', 'NNS', 'NNP', 'NNPS', 'RB', 'RBR', 'RBS', 'VB', 
-    'VBD', 'VBG', 'VBN', 'VBP', 'VBZ']
+    'VBD', 'VBG', 'VBN', 'VBZ']
 
 # function: get_all_words_and_word_counts
 # ---------------------------------------

@@ -6,8 +6,8 @@ import Artist
 LINE_LENGTH_MIN = 8
 LINE_LENGTH_MAX = 14
 
-TRIGRAM_WEIGHT  = 10
 BIGRAM_WEIGHT   = 5
+TRIGRAM_WEIGHT  = 10
 
 # Function: Weighted Random Choice
 # --------------------------------
@@ -32,32 +32,18 @@ def weightedRandomChoice(weightDict):
             return elems[chosenIndex]
     raise Exception('Should not reach here') 
 
+
+def get_first_trigram(artist, theme):
+    weights = artist.trigrams
+    for trigram in weights:
+        weights[trigram] = weights[trigram]*TRIGRAM_WEIGHT*artist.theme_values[trigram][theme] \
+            + artist.bigrams[(trigram[0], trigram[1])]*BIGRAM_WEIGHT*artist.theme_values[(trigram[0], trigram[1])][theme] \
+            + artist.unigrams[trigram[0]]*artist.theme_values[trigram[0]][theme]
+        weights[trigram] = math.log(weights[trigram] + 1.0)
+    return weightedRandomChoice(weights)
+
+
 def generate_one_word(artist, first, second, theme):
-    # First word in the line
-    if (second == None):
-        weights = artist.trigrams
-        for trigram in weights:
-            weights[trigram] = weights[trigram]*TRIGRAM_WEIGHT*artist.theme_values[trigram][theme] \
-                + artist.bigrams[(trigram[0], trigram[1])]*BIGRAM_WEIGHT*artist.theme_values[(trigram[0], trigram[1])][theme] \
-                + artist.unigrams[trigram[0]]*artist.theme_values[trigram[0]][theme]
-            weights[trigram] = math.log(weights[trigram] + 1.0)
-        return weightedRandomChoice(weights)[0]
-
-    # Second word in the line
-    if (first == None):
-        weights = {}
-        for trigram in artist.trigrams:
-            if trigram[0] == second:
-                weights[trigram] = artist.trigrams[trigram]*TRIGRAM_WEIGHT*artist.theme_values[trigram][theme] \
-                    + artist.bigrams[(second, trigram[1])]*BIGRAM_WEIGHT*artist.theme_values[(second, trigram[1])][theme] \
-                    + artist.unigrams[second]*artist.theme_values[trigram[0]][theme]
-                weights[trigram] = math.log(weights[trigram] + 1.0)
-        if len(weights) == 0:
-            return "!!END!!"
-        else: 
-            return weightedRandomChoice(weights)[1]
-
-    # All other words
     weights = {}
     for trigram in artist.trigrams:
         if trigram[0] == first and trigram[1] == second:
@@ -73,8 +59,11 @@ def generate_one_word(artist, first, second, theme):
         
 def generate_one_line(artist, theme=1, epsilon=0.0):
     length_upper_bound = random.randint(LINE_LENGTH_MIN, LINE_LENGTH_MAX)
-    first, second, line = None, None, ""
-    for i in range(0, length_upper_bound):
+    first_trigram = get_first_trigram(artist, theme)
+    line = " ".join(first_trigram) + " "
+    first = first_trigram[1]
+    second = first_trigram[2]
+    for i in range(0, length_upper_bound - 3):
         if (random.random() < epsilon):
             # TO DO: MUST IMPLEMENTED THE OUT OF DOMAIN NEXT WORD CHOICE
             next_word = "RAND"

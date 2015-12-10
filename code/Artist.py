@@ -3,6 +3,7 @@ from os import path
 from collections import Counter
 import SongParser
 import song_cluster
+import nltk
 
 # Class: Artist
 # -----------------
@@ -27,6 +28,8 @@ class Artist:
     def __init__(self, artist):
         self.root = os.popen("git rev-parse --show-toplevel").read().strip('\n') + "/Data/lyrics/"
         self.name = artist
+        self.desired_pos = ['JJ', 'JJR', 'JJS', 'MD', 'NN', 'NNS', 'NNP', 'NNPS', 'RB', 'RBR', 'RBS', 'VB', 
+            'VBD', 'VBG', 'VBP', 'VBN', 'VBZ']
         self.register_all_songs(artist)
         self.update_clusters()
         self.update_models()
@@ -84,8 +87,6 @@ class Artist:
             if value not in self.theme_values:
                 self.theme_values[value] = {0:100, 1:100, 2:100}
             self.theme_values[value][cluster_number] += trigrams[value]
-        for ngram in self.theme_values:
-            self.theme_values[ngram] = self.normalize(self.theme_values[ngram])
 
     # Function: find_representative_words
     # -----------------------
@@ -93,11 +94,10 @@ class Artist:
     def find_representative_words(self):
         self.representative_words = {0: [], 1:[], 2:[]}
         for uni in self.unigrams:
-            if self.theme_values[uni][0] > 0.8:
+            if '\'' not in uni and nltk.pos_tag([uni.decode('utf-8')])[0][1] in self.desired_pos \
+                        and uni not in ['be', 'is', 'are', 'was', 'am', 'were', 'been', 'have', 'has']:
                 self.representative_words[0].append((uni, self.theme_values[uni][0]))
-            if self.theme_values[uni][1] > 0.8:
                 self.representative_words[1].append((uni, self.theme_values[uni][1]))
-            if self.theme_values[uni][2] > 0.8:
                 self.representative_words[2].append((uni, self.theme_values[uni][2]))
 
         self.representative_words[0] = [x[0] for x in sorted(self.representative_words[0] ,key=lambda x: x[1])][-10:]
@@ -125,6 +125,10 @@ class Artist:
             uni.update(song_unigrams)
             bi.update(song_bigrams)
             tri.update(song_trigrams)
+
+        for ngram in self.theme_values:
+            self.theme_values[ngram] = self.normalize(self.theme_values[ngram])
+        
         self.unigrams = uni
         self.bigrams = bi
         self.trigrams = tri
