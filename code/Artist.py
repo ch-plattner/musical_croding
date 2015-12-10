@@ -31,9 +31,13 @@ class Artist:
             'VBD', 'VBG', 'VBP', 'VBN', 'VBZ']
         self.register_all_songs(artist)
         # Theme functions:
+        print "theme functions:"
         self.update_clusters()
+        print "one"
         self.update_models()
+        print "two"
         self.find_representative_words()
+        print "three"
 
     # Function: register_all_songs
     # ----------------------------
@@ -97,10 +101,12 @@ class Artist:
     # -----------------------
     # Finds the overrepresented words in each category.
     def find_representative_words(self):
+        print "starting find_representative_words()"
         self.representative_words = {0: [], 1:[], 2:[]}
         for uni in self.unigrams:
-            if '\'' not in uni and nltk.pos_tag([uni.decode('utf-8')])[0][1] in self.desired_pos \
-                        and uni not in ['be', 'is', 'are', 'was', 'am', 'were', 'been', 'have', 'has']:
+            print "uni = ", uni
+            if ('\'' not in uni) and (nltk.pos_tag([uni.decode('utf-8')])[0][1] in self.desired_pos) \
+                        and (uni not in ['be', 'is', 'are', 'was', 'am', 'were', 'been', 'have', 'has']):
                 self.representative_words[0].append((uni, self.theme_values[uni][0]))
                 self.representative_words[1].append((uni, self.theme_values[uni][1]))
                 self.representative_words[2].append((uni, self.theme_values[uni][2]))
