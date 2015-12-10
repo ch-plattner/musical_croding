@@ -25,6 +25,7 @@ def get_list_of_artists():
     artists_file = open(REPO_ROOT + '/Data/lyrics/artists.txt', 'r')
     for artist in artists_file:
         artists.append(artist.strip())
+    artists_file.close()
     return artists
 
 # Function: get_all_song_lyrics

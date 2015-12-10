@@ -20,6 +20,10 @@ import nltk
 #   clusters| = { <cluster number e.g. '2'> : [ list of songs under that cluster] }
 #
 
+
+#########      UNTESTED          ##################
+stop_words = set(nltk.corpus.stopwords.words('english'))
+
 class Artist:
     # Constructor: Artist
     # -----------------------
@@ -100,7 +104,8 @@ class Artist:
         self.representative_words = {0: [], 1:[], 2:[]}
         for uni in self.unigrams:
             if '\'' not in uni and nltk.pos_tag([uni.decode('utf-8')])[0][1] in self.desired_pos \
-                        and uni not in ['be', 'is', 'are', 'was', 'am', 'were', 'been', 'have', 'has']:
+                        and uni not in stop_words:
+                #        and uni not in ['be', 'is', 'are', 'was', 'am', 'were', 'been', 'have', 'has']:
                 self.representative_words[0].append((uni, self.theme_values[uni][0]))
                 self.representative_words[1].append((uni, self.theme_values[uni][1]))
                 self.representative_words[2].append((uni, self.theme_values[uni][2]))
