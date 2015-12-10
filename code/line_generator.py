@@ -5,7 +5,7 @@ import Artist
 import copy
 
 LINE_LENGTH_MIN = 8
-LINE_LENGTH_MAX = 14
+LINE_LENGTH_MAX = 12
 EPSILON = 0.05
 
 UNIGRAM_WEIGHT  = 1
@@ -108,27 +108,4 @@ def generate_one_line(artist, theme=1, epsilon=0.0):
         second = line[len(line)-1]
     return line
 
-# Function: Generate Stanza (one level above Line)
-# ------------------------------------------------
-# self explanatory. Generate 1 verse/chorus/bridge.
-#
-def generate_stanza(artist, length, theme=1):
-    stanza = []
-    for i in range(0, length):
-        stanza.append(generate_one_line(artist, theme, EPSILON))
-    return stanza
-
-# Function: Generate Song Lyrics (one level above Stanza)
-# -------------------------------------------------------
-# Generates an entire song. The structure was hardcoded.
-#
-def generate_song_lyrics(artist, theme=1):
-    verse_length = random.randint(8, 14)
-    chorus_length = random.randint(verse_length - 2, verse_length + 2)
-    verse1 = generate_stanza(artist, verse_length, theme)
-    verse2 = generate_stanza(artist, verse_length, theme)
-    chorus = generate_stanza(artist, chorus_length, theme)
-    bridge = generate_stanza(artist, verse_length / 2, theme)
-    return [verse1, chorus, verse2, copy.deepcopy(chorus), bridge, copy.deepcopy(chorus)]
-    #return "".join([verse1, chorus, verse2, chorus, bridge, chorus])
 

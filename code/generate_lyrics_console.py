@@ -3,7 +3,7 @@ import string
 import collections
 import random
 import Artist
-import line_generator
+import CreatedSong
 
 def main():
     print "Welcome to Lyrics Generator! Let's make a song."
@@ -28,7 +28,9 @@ def main():
             theme = 0
             while int(theme) < 1 or int(theme) > 3:
                 theme = raw_input("Choose a theme between 1 and 3. ").strip()
-            print line_generator.generate_song_lyrics(artist, int(theme) - 1)
+            
+            our_new_song = CreatedSong.CreatedSong(artist, int(theme) - 1)
+            our_new_song.print_this_song()
 
 ###################################################################
 
