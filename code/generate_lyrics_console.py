@@ -20,7 +20,6 @@ def main():
         else:
             print "Let's make a", artist_name, "song..."
             print "Give us a few seconds to train our database...\n"
-            #lyrics = generate_song_lyrics_baseline(artist_name, 300)
             artist = Artist.Artist(artist_name)
 
             print "Theme 1", ", ".join(artist.representative_words[0])
@@ -32,30 +31,6 @@ def main():
             print line_generator.generate_song_lyrics(artist, int(theme) - 1)
 
 ###################################################################
-
-# Function: Weighted Random Choice
-# --------------------------------
-# TAKEN FROM CS221 ASSIGNMENT CAR, |util.py|
-# Given a dictionary of the form element -> weight, selects an element
-# randomly based on distribution proportional to the weights. Weights can sum
-# up to be more than 1. 
-def weightedRandomChoice(weightDict):
-    weights = []
-    elems = []
-    for elem in weightDict:
-        weights.append(weightDict[elem])
-        elems.append(elem)
-    total = sum(weights)
-    key = random.uniform(0, total)
-    runningTotal = 0.0
-    chosenIndex = None
-    for i in range(len(weights)):
-        weight = weights[i]
-        runningTotal += weight
-        if runningTotal > key:
-            chosenIndex = i
-            return elems[chosenIndex]
-    raise Exception('Should not reach here')
 
 # Function: Generate Song Lyrics, Baseline implementation
 # -------------------------------------------------------
@@ -88,6 +63,5 @@ def generate_song_lyrics_baseline(artist, num_words):
     total_artist_word_frequencies = reduce(combine_two_counters, listOfCounters)
     generated_words = [weightedRandomChoice(total_artist_word_frequencies) for _ in range(num_words)]
     return ' '.join(generated_words)
-    
 
 main()

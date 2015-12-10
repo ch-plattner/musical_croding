@@ -2,6 +2,7 @@ import math
 import random
 import collections
 import Artist
+import copy
 
 LINE_LENGTH_MIN = 8
 LINE_LENGTH_MAX = 14
@@ -83,12 +84,14 @@ def generate_one_word(artist, first, second, theme):
 
 # Function: Generate One Line
 # ---------------------------
-# Generate one line of a song.
+# Generate one line of a song. Returned as a list of words.
 #
 def generate_one_line(artist, theme=1, epsilon=0.0):
     length_upper_bound = random.randint(LINE_LENGTH_MIN, LINE_LENGTH_MAX)
     first_trigram = get_first_trigram(artist, theme)
-    line = " ".join(first_trigram) + " "
+    
+    line = [first_trigram[0], first_trigram[1], first_trigram[2]]
+    
     first = first_trigram[1]
     second = first_trigram[2]
 
@@ -100,10 +103,9 @@ def generate_one_line(artist, theme=1, epsilon=0.0):
             # Stop prematurely if '!!END!!' is received, because of reasons detailed in generate_one_word.
             if next_word == '!!END!!':
                 break
-        
-        line += next_word + " "
-        first = second
-        second = next_word
+        line.append(next_word)
+        first = line[len(line)-2]
+        second = line[len(line)-1]
     return line
 
 # Function: Generate Stanza (one level above Line)
@@ -111,9 +113,9 @@ def generate_one_line(artist, theme=1, epsilon=0.0):
 # self explanatory. Generate 1 verse/chorus/bridge.
 #
 def generate_stanza(artist, length, theme=1):
-    stanza = ""
+    stanza = []
     for i in range(0, length):
-        stanza += generate_one_line(artist, theme, EPSILON) + '\n'
+        stanza.append(generate_one_line(artist, theme, EPSILON))
     return stanza
 
 # Function: Generate Song Lyrics (one level above Stanza)
@@ -123,9 +125,10 @@ def generate_stanza(artist, length, theme=1):
 def generate_song_lyrics(artist, theme=1):
     verse_length = random.randint(8, 14)
     chorus_length = random.randint(verse_length - 2, verse_length + 2)
-    verse1 = "[Verse 1]\n" + generate_stanza(artist, verse_length, theme) +  "\n"
-    verse2 = "[Verse 2]\n" + generate_stanza(artist, verse_length, theme) +  "\n"
-    chorus = "[Chorus]\n"  + generate_stanza(artist, chorus_length, theme) +  "\n"
-    bridge = "[Bridge]\n"  + generate_stanza(artist, verse_length / 2, theme) +  "\n"
-    return "".join([verse1, chorus, verse2, chorus, bridge, chorus])
+    verse1 = generate_stanza(artist, verse_length, theme)
+    verse2 = generate_stanza(artist, verse_length, theme)
+    chorus = generate_stanza(artist, chorus_length, theme)
+    bridge = generate_stanza(artist, verse_length / 2, theme)
+    return [verse1, chorus, verse2, copy.deepcopy(chorus), bridge, copy.deepcopy(chorus)]
+    #return "".join([verse1, chorus, verse2, chorus, bridge, chorus])
 
