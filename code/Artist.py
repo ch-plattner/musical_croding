@@ -17,9 +17,8 @@ import nltk
 #   bigram|,
 #   trigram| = dicts from (uni/bi/trigram) : weight
 #   theme_values| = {word1 : {0: 5, 1: 10, 2: 15}, word2 : ... } => links words to their counts in each cluster
+#   clusters| = { <cluster number e.g. '2'> : [ list of songs under that cluster] }
 #
-
-#########      UNTESTED          ##################
 
 class Artist:
     # Constructor: Artist
@@ -31,6 +30,7 @@ class Artist:
         self.desired_pos = ['JJ', 'JJR', 'JJS', 'MD', 'NN', 'NNS', 'NNP', 'NNPS', 'RB', 'RBR', 'RBS', 'VB', 
             'VBD', 'VBG', 'VBP', 'VBN', 'VBZ']
         self.register_all_songs(artist)
+        # Theme functions:
         self.update_clusters()
         self.update_models()
         self.find_representative_words()
@@ -54,6 +54,7 @@ class Artist:
     # Function: get_cluster_number
     # ----------------------------
     # Given a song, returns the cluster number of the theme it belongs to.
+    # self.clusters must be created first.
     def get_cluster_number(self, song):
         for cluster_number in self.clusters:
             if song in self.clusters[cluster_number]:
@@ -72,9 +73,13 @@ class Artist:
 
     # Function: update_theme_values
     # ----------------------------
+    # |song| has been assigned to |cluster_number|. We then update |self.theme_values| to reflect this.
     # Given unigram, bigram and trigram counts for one song, this updates the
-    # self.theme_values dictionary.
-    def update_theme_values(self, unigrams, bigrams, trigrams, cluster_number):
+    # |self.theme_values| dictionary.
+    def update_theme_values(self, song, cluster_number):
+        unigrams = song.unigrams
+        bigrams = song.bigrams
+        trigrams = song.trigrams
         for value in unigrams:
             if value not in self.theme_values:
                 self.theme_values[value] = {0:100, 1:100, 2:100}
@@ -109,6 +114,7 @@ class Artist:
     # Creates unigram, bigram, and trigram models for the artist by aggregating
     # the respective weights from all of their songs.
     # Note: We need laplace smoothing. What |lambda| value is, we can learn.
+    # Also update the theme values model.
     def update_models(self):
         uni = Counter()
         bi = Counter()
@@ -120,7 +126,7 @@ class Artist:
             song_trigrams = song.trigrams
 
             cluster_number = self.get_cluster_number(song.name.split(' || ')[1].replace('.txt', '').strip())
-            self.update_theme_values(song_unigrams, song_bigrams, song_trigrams, cluster_number)
+            self.update_theme_values(song, cluster_number)
             
             uni.update(song_unigrams)
             bi.update(song_bigrams)

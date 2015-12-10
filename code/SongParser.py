@@ -14,6 +14,12 @@ import re
 #   unigrams|,
 #   bigrams|,
 #   trigrams| = dicts from (uni/bi/trigram) : weight
+#   line_lengths| = a list of the length (in words) of each line.
+#   num_lines|, duh.
+#   word_count| = total # words in song.
+#   min_line|,
+#   max_line|,
+#   mean_line|
 #
 class SongParser:
     # Constructor: SongParser
@@ -30,9 +36,6 @@ class SongParser:
             artistname = song.split('||')[0].strip(' ')
             self.parse_song(song)
             self.get_stats()
-            # if len(self.lyrics) == 0:
-            #     os.remove(self.root + '/' + self.artistname + '/' + song)
-            #     return
             self.create_unigram_model()
             self.create_bigram_model()
             self.create_trigram_model()

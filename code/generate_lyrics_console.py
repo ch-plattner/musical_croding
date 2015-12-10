@@ -55,8 +55,8 @@ def weightedRandomChoice(weightDict):
             return elems[chosenIndex]
     raise Exception('Should not reach here')
 
-# Function: Generate Song Lyrics, Baseline
-# ----------------------------------------
+# Function: Generate Song Lyrics, Baseline implementation
+# -------------------------------------------------------
 # Given an artist, generates a valid song. Very crude.
 # This function returns a random sequence of |num_words| 
 # words used in this artist's songs, with the probability of
