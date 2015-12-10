@@ -24,8 +24,6 @@ import enchant
 #   clusters| = { <cluster number e.g. '2'> : [ list of songs under that cluster] }
 #
 
-
-#########      UNTESTED          ##################
 tagger = PerceptronTagger()
 stop_words = set(nltk.corpus.stopwords.words('english'))
 desired_pos = ['NOUN', 'VERB', "ADJ", "ADV"]

@@ -26,7 +26,9 @@ def main():
             print "Theme 1", ", ".join(artist.representative_words[0])
             print "Theme 2", ", ".join(artist.representative_words[1])
             print "Theme 3", ", ".join(artist.representative_words[2])
-            theme = raw_input("Choose a theme between 1 and 3. ").strip()
+            theme = 0
+            while int(theme) < 1 or int(theme) > 3:
+                theme = raw_input("Choose a theme between 1 and 3. ").strip()
             print line_generator.generate_song_lyrics(artist, int(theme) - 1)
 
 ###################################################################

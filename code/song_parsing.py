@@ -6,17 +6,6 @@ import types
 
 REPO_ROOT = os.popen("git rev-parse --show-toplevel").read().strip('\n')
 
-# Class: SongParser
-# -----------------
-# ???
-#
-class SongParser:
-    def __init__(self):
-        pass
-
-    def parse_song(self, raw_lyrics):
-        pass
-
 # Function: get_list_of_artists
 # -----------------------------
 # 
