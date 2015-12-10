@@ -7,6 +7,8 @@ import nltk
 import nltk.data, nltk.tag
 from nltk.tag.perceptron import PerceptronTagger
 
+import enchant
+
 # Class: Artist
 # -----------------
 # The object for interacting with an individual artist.
@@ -27,6 +29,7 @@ from nltk.tag.perceptron import PerceptronTagger
 tagger = PerceptronTagger()
 stop_words = set(nltk.corpus.stopwords.words('english'))
 desired_pos = ['NOUN', 'VERB', "ADJ", "ADV"]
+dictionary = enchant.Dict("en_US")
 
 class Artist:
     # Constructor: Artist
@@ -105,7 +108,9 @@ class Artist:
     def find_representative_words(self):
         self.representative_words = {0: [], 1:[], 2:[]}
         for uni in self.unigrams:
-            if '\'' not in uni and uni not in stop_words and nltk.tag._pos_tag([uni.decode('utf-8')], 'universal', tagger)[0][1] in desired_pos:
+            word = uni.decode('utf-8')
+            if '\'' not in uni and uni not in stop_words and nltk.tag._pos_tag([word], 'universal', tagger)[0][1] in desired_pos \
+                    and dictionary.check(word):
                 self.representative_words[0].append((uni, self.theme_values[uni][0]))
                 self.representative_words[1].append((uni, self.theme_values[uni][1]))
                 self.representative_words[2].append((uni, self.theme_values[uni][2]))

@@ -90,5 +90,5 @@ def generate_song_lyrics(artist, theme=1):
     verse2 = "[Verse 2]\n" + generate_stanza(artist, verse_length, theme) +  "\n"
     chorus = "[Chorus]\n"  + generate_stanza(artist, chorus_length, theme) +  "\n"
     bridge = "[Bridge]\n"  + generate_stanza(artist, verse_length / 2, theme) +  "\n"
-    return "".join([verse1, chorus, verse2, bridge, chorus, chorus])
+    return "".join([verse1, chorus, verse2, bridge, chorus])
 
