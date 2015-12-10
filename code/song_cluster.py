@@ -1,3 +1,11 @@
+#############################################################
+# CITATION:                                                 #
+# Some of this code was adapted from Charissa Plattner's    #
+# CS 224U project in the Spring, specifically the function  #
+# get_all_representations_as_matrix() and parts of          #
+# get_all_words_and_word_counts().                          #
+#############################################################
+
 from collections import Counter
 import numpy as np
 

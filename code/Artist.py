@@ -157,11 +157,10 @@ class Artist:
 #
 ##########################################################
 def main():
-    artist = Artist("Taylor Swift")
-    for category in artist.representative_words:
-        print category
-        print artist.representative_words[category]
-        print ""
+    artist = Artist("Ed Sheeran")
+    print artist.clusters
+
+
 #     # print artist.songs
 #     # for song in artist.songs:
 #         # print song.name, song.word_count, song.min_line, song.max_line, song.mean_line
