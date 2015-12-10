@@ -4,6 +4,8 @@ from collections import Counter
 import SongParser
 import song_cluster
 import nltk
+import nltk.data, nltk.tag
+from nltk.tag.perceptron import PerceptronTagger
 
 # Class: Artist
 # -----------------
@@ -20,6 +22,12 @@ import nltk
 #   clusters| = { <cluster number e.g. '2'> : [ list of songs under that cluster] }
 #
 
+
+#########      UNTESTED          ##################
+tagger = PerceptronTagger()
+stop_words = set(nltk.corpus.stopwords.words('english'))
+desired_pos = ['NOUN', 'VERB', "ADJ", "ADV"]
+
 class Artist:
     # Constructor: Artist
     # -----------------------
@@ -27,8 +35,6 @@ class Artist:
     def __init__(self, artist):
         self.root = os.popen("git rev-parse --show-toplevel").read().strip('\n') + "/Data/lyrics/"
         self.name = artist
-        self.desired_pos = ['JJ', 'JJR', 'JJS', 'MD', 'NN', 'NNS', 'NNP', 'NNPS', 'RB', 'RBR', 'RBS', 'VB', 
-            'VBD', 'VBG', 'VBP', 'VBN', 'VBZ']
         self.register_all_songs(artist)
         # Theme functions:
         print "theme functions:"
@@ -105,8 +111,7 @@ class Artist:
         self.representative_words = {0: [], 1:[], 2:[]}
         for uni in self.unigrams:
             print "uni = ", uni
-            if ('\'' not in uni) and (nltk.pos_tag([uni.decode('utf-8')])[0][1] in self.desired_pos) \
-                        and (uni not in ['be', 'is', 'are', 'was', 'am', 'were', 'been', 'have', 'has']):
+            if '\'' not in uni and uni not in stop_words and nltk.tag._pos_tag([uni.decode('utf-8')], 'universal', tagger)[0][1] in desired_pos:
                 self.representative_words[0].append((uni, self.theme_values[uni][0]))
                 self.representative_words[1].append((uni, self.theme_values[uni][1]))
                 self.representative_words[2].append((uni, self.theme_values[uni][2]))
