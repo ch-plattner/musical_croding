@@ -7,11 +7,11 @@ import sklearn.decomposition
 import nltk
 from nltk.stem.snowball import SnowballStemmer
 import song_parsing
+import Artist
 
 # This list contains the nltk part of speech codes for the parts of speech we want to cluster with.
 # This includes nouns, adjectives, verbs, and adverbs.
-DESIRED_POS = ['IN', 'JJ', 'JJR', 'JJS', 'MD', 'NN', 'NNS', 'NNP', 'NNPS', 'RB', 'RBR', 'RBS', 'VB', 
-    'VBD', 'VBG', 'VBN', 'VBZ']
+DESIRED_POS = ['NOUN', 'VERB', "ADJ", "ADV"]
 
 # function: get_all_words_and_word_counts
 # ---------------------------------------
@@ -28,22 +28,22 @@ def get_all_words_and_word_counts(songs):
         for line in songs[song].split('\n'):
             t = nltk.word_tokenize(line.decode('utf-8'))
             
-            words.extend(t) # remove this
-            # tagged = nltk.pos_tag(t)
-            # for word in tagged:
-            #     if word[1] in DESIRED_POS:
-            #        words.append(word[0])
+            # words.extend(t) # remove this
+            tagged = nltk.tag._pos_tag(t, 'universal', Artist.tagger)
+            for word in tagged:
+                if word[1] in DESIRED_POS:
+                   words.append(word[0])
                                 
-        # stemmed = []
-        # for word in words: 
-        #     try:
-        #         stem = stemmer.stem(word)
-        #     except:
-        #         stem = word
-        #     stemmed.append(stem)
+        stemmed = []
+        for word in words: 
+            try:
+                stem = stemmer.stem(word)
+            except:
+                stem = word
+            stemmed.append(stem)
         
-        counter = Counter(words) # remove this                     
-        #counter = Counter(stemmed)
+        # counter = Counter(words) # remove this                     
+        counter = Counter(stemmed)
         song_counters[song] = counter
         all_words = all_words.union( counter.iterkeys() )
 
