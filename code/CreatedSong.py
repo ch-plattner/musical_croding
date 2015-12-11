@@ -2,7 +2,7 @@ import random
 import line_generator
 import copy
 
-MU = 0.10
+MU = 0.20
 
 class CreatedSong:
     def __init__(self, artist, theme=1):
@@ -15,13 +15,17 @@ class CreatedSong:
     #
     def generate_stanza(self, artist, length, theme):
         stanza = []
+        
         for i in range(0, length):
             # With chance MU on an even-numbered line that is not line 2, repeat the last line.
-            if (i % 2) == 1 and i != 1 and random.random() < MU:
+            if (i % 2) == 1 and i != 1 and not last_line_was_a_copy and random.random() < MU:
                 stanza.append(copy.deepcopy(stanza[i-1]))
-                continue
+                last_line_was_a_copy = True
             # Generate another line and add it to the stanza.
-            stanza.append(line_generator.generate_one_line(artist, theme, line_generator.EPSILON))
+            else:
+                stanza.append(line_generator.generate_one_line(artist, theme, line_generator.EPSILON))
+                if i % 2 == 1:
+                    last_line_was_a_copy = False
         return stanza
 
     # Function: Generate Song Lyrics (one level above Stanza)
@@ -37,7 +41,7 @@ class CreatedSong:
         bridge = self.generate_stanza(artist, verse_length / 2, theme)
         return {"V1":verse1, "V2":verse2, 'BR':bridge, 'CH':chorus}
 
-###################
+####################################
     # Helper: Print Block
     # -------------------
     # Prints one block of lyrics. A block is a list of lines,

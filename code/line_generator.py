@@ -149,8 +149,9 @@ def generate_one_word_epsilon(first, second):
         score = TRIGRAM_WEIGHT * math.log(trigram_score + 1.0) + BIGRAM_WEIGHT * math.log(bigram_score + 1.0) + UNIGRAM_WEIGHT * math.log(unigram_score + 1.0)
         weights[word] = score * score # squared to bias toward higher-scored words, increase predictability to balance out extra randomness.
 
-    # len(weights) should NEVER be 0, because the current artist's trigrams are inside UNIVERSAL_TRIGRAMS also, and these will also be valid trigrams to pick from.
-    # ... but it's breaking anyway. fuck.
+    # if there are no trigrams formed with (first, second, X), then return an END flag. This CAN happen.
+    if len(weights) == 0:
+        return '!!END!!'
     return weightedRandomChoice(weights)
 
 # Function: Generate One Line
@@ -167,15 +168,15 @@ def generate_one_line(artist, theme=1, epsilon=0.0):
     second = first_trigram[2]
 
     for i in range(0, length_upper_bound - 3):
-        # At a |epsilon| chance, we pick a word outside of our artist's corpus. We instead pick a word from the
-        # combined corpus of all artists.
+        # At a |epsilon| chance, we pick a word outside of our artist's corpus.
         if (random.random() < epsilon):
             next_word = generate_one_word_epsilon(first, second)
+        # Other wise with |1-epsilon| chance, generate as usual with artist's corpus.
         else: 
             next_word = generate_one_word(artist, first, second, theme)
-            # Stop prematurely if '!!END!!' is received, because of reasons detailed in generate_one_word.
-            if next_word == '!!END!!':
-                break
+        # Stop prematurely if '!!END!!' is received, because of reasons detailed in generate_one_word.
+        if next_word == '!!END!!':
+            break
         line.append(next_word)
         first = line[len(line)-2]
         second = line[len(line)-1]
