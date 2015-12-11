@@ -1,20 +1,26 @@
 import random
 import line_generator
-import CSP
 import copy
+
+MU = 0.10
 
 class CreatedSong:
     def __init__(self, artist, theme=1):
         self.song_lyrics = self.generate_song_lyrics(artist, theme) 
 
 
-    # Function: Generate Stanza (one level above Line)
-    # ------------------------------------------------
+    # Function: Generate Stanza (one level above generate_one_line() in line_generator.py)
+    # ------------------------------------------------------------------------------------
     # self explanatory. Generate 1 verse/chorus/bridge.
     #
     def generate_stanza(self, artist, length, theme):
         stanza = []
         for i in range(0, length):
+            # With chance MU on an even-numbered line that is not line 2, repeat the last line.
+            if (i % 2) == 1 and i != 1 and random.random() < MU:
+                stanza.append(copy.deepcopy(stanza[i-1]))
+                continue
+            # Generate another line and add it to the stanza.
             stanza.append(line_generator.generate_one_line(artist, theme, line_generator.EPSILON))
         return stanza
 
@@ -30,7 +36,6 @@ class CreatedSong:
         chorus = self.generate_stanza(artist, chorus_length, theme)
         bridge = self.generate_stanza(artist, verse_length / 2, theme)
         return {"V1":verse1, "V2":verse2, 'BR':bridge, 'CH':chorus}
-        #return {"V1" : copy.deepcopy(verse1), "V2" : copy.deepcopy(verse2), "BR" : copy.deepcopy(bridge), "CH" : copy.deepcopy(chorus)}
 
 ###################
     # Helper: Print Block
