@@ -49,6 +49,7 @@ class CreatedSong:
     def print_block(self, block):
         for line in block:
             print ' '.join(line)
+        print '\n'
 
     # Function: Print This Song
     # -------------------------
@@ -62,27 +63,21 @@ class CreatedSong:
 
         print "[Verse 1]"
         self.print_block(lyrics["V1"])
-        print '\n'
 
         print "[Chorus]"
         self.print_block(lyrics["CH"])
-        print '\n'
 
         print "[Verse 2]"
         self.print_block(lyrics["V2"])
-        print '\n'
 
         print "[Chorus]"
         self.print_block(lyrics["CH"])
-        print '\n'
 
         print "[Bridge]"
         self.print_block(lyrics["BR"])
-        print '\n'
 
         print "[Chorus]"
         self.print_block(lyrics["CH"])
-        print '\n'
 
 
 
